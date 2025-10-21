@@ -19,7 +19,6 @@
 - **Documentación:** Mantener actualizados los documentos funcionales, diagramas de flujo o modelos de procesos.
 - **Validación:** Asegurar que la solución final cumpla con los objetivos del negocio.
 
----
 
 ### Jhon Alexis Mendoza Rojas — **Quality Assurance (QA)**
 
@@ -31,7 +30,6 @@
 - **Verificación de entregas:** Validar que las correcciones cumplan con lo esperado sin afectar otras funcionalidades.
 - **Mejora continua:** Proponer mejoras en la calidad del proceso de desarrollo.
 
----
 
 ### Igmar De Jesus Lozada Bolivar — **Developer (Dev)**
 
@@ -49,6 +47,10 @@
 ## Prototipo a construir
 
 El prototipo de Skill.ia será una plataforma web funcional que integre las tres piezas fundamentales del sistema: diagnóstico de habilidades, generación de ruta personalizada (roadmap vivo) y acompañamiento inteligente. Su objetivo será demostrar cómo el sistema identifica el nivel actual de un usuario, construye una ruta de aprendizaje a medida y ofrece orientación dinámica a través de un agente conversacional que evoluciona según el progreso del usuario.
+
+### Objetivo
+
+Demostrar la viabilidad técnica y funcional de un sistema inteligente de desarrollo profesional, capaz de diagnosticar las habilidades actuales de un usuario, generar una ruta personalizada de aprendizaje (roadmap vivo) y ofrecer acompañamiento conversacional adaptativo que evoluciona con su progreso.
 
 ### Módulos principales del prototipo
 
@@ -123,16 +125,48 @@ El prototipo de Skill.ia será una plataforma web funcional que integre las tres
 - Evaluación de seguimiento y ajustes automáticos del roadmap.
 
 
-### Entregables esperados del prototipo
+### Alcance del prototipo
 
-- Interfaz navegable con mínimo tres vistas funcionales:
-    - Dashboard del usuario
-    - Resultados del diagnóstico
-    - Roadmap y chat con el agente
-- Base de datos operativa conectada al backend.
-- Lógica inicial de evaluación, generación de ruta y registro de progreso.
-- Chat con respuestas simuladas o integradas vía API.
-- Visualización del avance y recomendaciones.
+El alcance incluye:
+
+1. **Captura y gestión de información del usuario**
+
+    - Registro y autenticación de usuarios.
+    - Creación y almacenamiento del perfil profesional (datos personales, sector, aspiración, experiencia, nivel de inglés, etc.).
+    - Asociación del usuario con un perfil objetivo dentro del sistema.
+
+2. **Diagnóstico inicial de competencias**
+
+    - Ejecución de una evaluación diagnóstica simplificada para medir habilidades técnicas, blandas y de idioma.
+    - Registro de los resultados en las tablas evaluaciones y resultados_evaluacion.
+    - Generación automática de un perfil de habilidades visual (fortalezas y brechas).
+
+3. **Generación automática de la ruta de aprendizaje**
+
+    - Creación dinámica de un roadmap personalizado en función de los resultados del diagnóstico.
+    - Selección de hitos desde el catálogo (hitos) y organización secuencial dentro de roadmap_hitos.
+    - Visualización del progreso del usuario y actualización del estado de los hitos (progreso_usuario).
+
+4. **Acompañamiento inteligente**
+
+    - Integración de un agente conversacional con respuestas generadas mediante IA o guiones predefinidos.
+    - Registro de cada interacción en la tabla interacciones_agente, incluyendo intención y tono del mensaje.
+    - Generación automática de recomendaciones personalizadas almacenadas en recomendaciones (por ejemplo, materiales de estudio o hábitos de aprendizaje).
+
+5. **Visualización y seguimiento del progreso**
+
+    - Panel de usuario con indicadores de avance por competencia y estado general del roadmap.
+    - Historial de evaluaciones y comparativa entre puntajes iniciales y de seguimiento.
+    - Representación gráfica del progreso para reforzar la percepción de logro y motivación.
+
+**Fuera del alcance**
+
+Para mantener el prototipo dentro de los límites de tiempo y complejidad razonables, no incluirá:
+
+- Integraciones con plataformas externas de cursos (como Coursera o Udemy).
+- Evaluaciones avanzadas con calificación automática de ejercicios prácticos.
+- Personalización por voz o procesamiento de audio.
+- Algoritmos de machine learning para predicción de desempeño (se simularán reglas base).
 
 ---
 
