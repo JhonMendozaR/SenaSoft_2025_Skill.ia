@@ -1,4 +1,4 @@
-# Skill.IA
+# Skill.ia
 
 ## Desbloqueando el Potencial: Guía para el Desarrollo Profesional
 
@@ -99,7 +99,6 @@ Demostrar la viabilidad técnica y funcional de un sistema inteligente de desarr
 - **Funciones**:
     - Barra de progreso general y por competencia.
     - Historial de hitos completados con tiempo invertido y fecha de finalización.
-    - Sección de “logros desbloqueados” o reconocimientos simbólicos (gamificación ligera).
     - Gráficos de evolución de puntaje entre evaluaciones (diagnóstico → seguimiento → final).
 
 
