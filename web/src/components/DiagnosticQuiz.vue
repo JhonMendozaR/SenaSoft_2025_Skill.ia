@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
+import { Icon } from '@iconify/vue';
 import { 
   useDiagnosticAI, 
   type Question, 
@@ -159,23 +160,21 @@ const finishDiagnostic = () => {
         </p>
         <div class="intro-details">
           <div class="detail-item">
-            <span class="detail-icon">🎯</span>
+            <Icon icon="pajamas:work-item-objective" class="detail-icon" width="24" height="24" />
             <span class="detail-text">{{ totalQuestions }} preguntas personalizadas</span>
           </div>
           <div class="detail-item">
-            <span class="detail-icon">🧠</span>
+            <Icon icon="fa7-solid:brain" class="detail-icon" width="24" height="24" />
             <span class="detail-text">Evaluación adaptativa con IA</span>
           </div>
           <div class="detail-item">
-            <span class="detail-icon">📊</span>
+            <Icon icon="bx:stats" class="detail-icon" width="24" height="24" />
             <span class="detail-text">Diagnóstico detallado al finalizar</span>
           </div>
         </div>
         <button @click="startQuiz" class="start-button">
           Comenzar Evaluación
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
+          <Icon icon="mdi:arrow-right" width="20" height="20" />
         </button>
       </div>
     </div>
@@ -219,9 +218,7 @@ const finishDiagnostic = () => {
               class="nav-button secondary"
               :disabled="answeredQuestions.length === 0"
             >
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path d="M12.5 5L7.5 10L12.5 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
+              <Icon icon="mdi:arrow-left" width="20" height="20" />
               Anterior
             </button>
           </div>
@@ -278,9 +275,7 @@ const finishDiagnostic = () => {
             <div class="insights">
               <div class="insight-section">
                 <h4 class="insight-title">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"/>
-                  </svg>
+                  <Icon icon="mdi:check-circle-outline" width="16" height="16" />
                   Fortalezas
                 </h4>
                 <ul class="insight-list">
@@ -290,11 +285,7 @@ const finishDiagnostic = () => {
 
               <div class="insight-section">
                 <h4 class="insight-title">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"/>
-                    <line x1="12" y1="8" x2="12" y2="12"/>
-                    <line x1="12" y1="16" x2="12.01" y2="16"/>
-                  </svg>
+                  <Icon icon="mdi:alert-circle-outline" width="16" height="16" />
                   Áreas de mejora
                 </h4>
                 <ul class="insight-list">
@@ -308,18 +299,12 @@ const finishDiagnostic = () => {
         <!-- Acciones finales -->
         <div class="results-actions">
           <button @click="restartDiagnostic" class="action-button secondary">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="1 4 1 10 7 10"/>
-              <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/>
-            </svg>
+            <Icon icon="mdi:refresh" width="20" height="20" />
             Reiniciar Evaluación
           </button>
           <button @click="finishDiagnostic" class="action-button primary">
             Continuar al Roadmap
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12"/>
-              <polyline points="12 5 19 12 12 19"/>
-            </svg>
+            <Icon icon="mdi:arrow-right" width="20" height="20" />
           </button>
         </div>
       </div>
@@ -446,7 +431,8 @@ const finishDiagnostic = () => {
 }
 
 .detail-icon {
-  font-size: 1.5rem;
+  color: var(--color-success);
+  flex-shrink: 0;
 }
 
 .detail-text {
