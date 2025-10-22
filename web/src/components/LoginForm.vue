@@ -146,12 +146,14 @@ const validateForm = (): boolean => {
 
 const handleLogin = async () => {
   if (!validateForm()) return;
-
+  
+  // Prevenir múltiples clicks
+  if (isLoading.value) return;
+  
   isLoading.value = true;
 
   try {
-    // Hacer petición POST al backend
-    const response = await fetch('http://10.0.0.45:8000/api/users/login', {
+    const response = await fetch('http://localhost:8000/api/users/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -166,21 +168,17 @@ const handleLogin = async () => {
     const data = await response.json();
 
     if (!response.ok) {
-      // Si hay error en la respuesta
       errors.email = data.message || 'Credenciales inválidas. Por favor, intenta nuevamente.';
       return;
     }
 
-    // Login exitoso
     console.log('Login exitoso:', data);
     
-    // Guardar el token si se quiere recordar
     if (formData.remember && data.token) {
       localStorage.setItem('auth_token', data.token);
       localStorage.setItem('user', JSON.stringify(data.user));
     }
 
-    // Redireccionar al dashboard o página principal
     window.location.href = '/diagnostic';
     
   } catch (error) {
