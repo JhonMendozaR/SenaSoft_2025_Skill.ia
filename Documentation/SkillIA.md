@@ -436,7 +436,7 @@ The MVP must receive user data, process it, generate understandable results, and
 
 Skill.ia is an intelligent system that diagnoses skills through an exam, generating personalized learning roadmaps and offering evolutionary accompaniment through a conversational agent that adapts to each user's professional progress. Thus, the exponential development of this minimum viable product would allow different users a clear evolution in their skills.
 
-### Skill.ia - 6-Month Horizon – "Cognitive and Empathetic Foundation"
+### 6-Month Horizon – "Cognitive and Empathetic Foundation"
 
 **Strategic Objective:**
 
@@ -613,6 +613,8 @@ The prototype development will be carried out using the Scrum agile methodology,
 
 ## Autonomy and Integrated Interaction - AI
 
+![Tool Diagram](Diagrams/tool-diagram.png)
+
 ### General Philosophy
 
 Our system starts from a centralized idea: a single type of user who converses with an assistant that provides information, advice, and help, and generates roadmaps thanks to the capacity an intelligent agent has to create them.
@@ -682,6 +684,8 @@ Each maintains its respective autonomy, without disregarding the work of others,
 ## Data Flow and Structure (In - Out)
 
 ### Relational Model
+
+![Relational Model](Diagrams/relational-model.png)
 
 ### Domain Model (Laravel - API - Backend)
 
@@ -896,6 +900,8 @@ TARGET_PROFILES 1──→ ROADMAPS
 
 ## Input/Output Flows (Layer Exchange)
 
+![Workflow AI](Diagrams/workflow-ai.png)
+
 ### Frontend → TCL AI
 
 When the user interacts with the agent or completes exams to diagnose them.
@@ -994,7 +1000,11 @@ This constant interaction makes the experience not feel like using a tool, but l
 
 ## MOCKUPS - DESIGN
 
-[Visual mockups would be displayed here - these are referenced in the original document but not shown in the text]
+![Mockup](Mockups/mockup1.png)
+![Mockup](Mockups/mockup2.png)
+![Mockup](Mockups/mockup3.png)
+![Mockup](Mockups/mockup4.png)
+![Mockup](Mockups/mockup5.png)
 
 ---
 
@@ -1006,6 +1016,8 @@ This constant interaction makes the experience not feel like using a tool, but l
 
 **Collaborative board in Asana for task management:**
 https://app.asana.com/1/1210522679655340/project/1211708000893213/list/1211708018781147
+
+![Asana board](Technical_Resources/asana.png)
 
 ---
 
