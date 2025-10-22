@@ -1,0 +1,14 @@
+id_hito,nombre_hito,descripcion,tipo,dificultad,horas_estimadas
+1,Fundamentos de SQL,"Aprender SELECT, JOIN, GROUP BY",tecnico,media,16
+2,Python básico,"Tipos, estructuras, funciones",tecnico,media,16
+3,Modelado de datos,"Normalización, esquemas, ER",tecnico,baja,8
+4,Dashboards en Power BI,Visualizaciones y DAX básico,tecnico,baja,16
+5,Git y versionamiento,Flujos básicos y ramas,tecnico,media,6
+6,Estadística descriptiva,Medidas y visualización,tecnico,baja,10
+7,Comunicación efectiva,Estructurar ideas y narrativa,blando,alta,10
+8,Inglés B1,Comprensión y speaking funcional,idioma,alta,10
+9,Proyecto integrador,Caso real y presentación,mixto,media,8
+10,SQL avanzado,"CTEs, ventanas, performance",tecnico,alta,10
+11,Python para datos,"Pandas, análisis, EDA",tecnico,media,12
+12,ETL/ELT con dbt,Modelado y tests,tecnico,alta,10
+13,Storytelling con datos,Mensajes y audiencia,blando,baja,8

@@ -1,0 +1,11 @@
+id_perfil,nombre_perfil,descripcion
+1,Analista de Datos,Rol orientado a análisis descriptivo y BI.
+2,Científico de Datos,Rol enfocado en modelos predictivos y ML.
+3,Ingeniero de Datos,Rol centrado en canalizaciones y plataformas de datos.
+4,BI Developer,Rol de construcción de dashboards y semánticas.
+5,Analytics Engineer,Rol puente entre ingeniería y analítica con dbt.
+6,ML Engineer,Producción de modelos y MLOps.
+7,Data Product Manager,Gestión de productos de datos.
+8,Data Architect,Diseño de plataformas y gobierno.
+9,Data Quality Analyst,Aseguramiento de calidad del dato.
+10,Data Steward,Gobierno y metadatos.

@@ -1,0 +1,251 @@
+id_recomendacion,id_usuario,fecha_hora,categoria,detalle,justificacion
+1,120,2025-05-19 17:12:20,idioma,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Hito previo no consolidado (Git).
+2,142,2025-10-20 17:59:04,prioridad_aprendizaje,Completar módulo de DAX básico en Power BI.,Falta de práctica aplicada en Python.
+3,178,2025-05-11 03:00:20,habito,Hacer proyecto integrador con dataset público.,Brecha alta en SQL y comunicación.
+4,16,2025-05-23 04:03:44,idioma,Practicar exposición de 5 minutos (storytelling).,Bajo puntaje en Inglés Conversacional.
+5,148,2025-10-04 22:11:58,prioridad_aprendizaje,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+6,86,2025-05-02 04:04:45,idioma,Hacer proyecto integrador con dataset público.,Hito previo no consolidado (Git).
+7,6,2025-06-19 12:43:08,material_estudio,Completar módulo de DAX básico en Power BI.,Hito previo no consolidado (Git).
+8,193,2025-10-12 12:47:15,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+9,10,2025-06-07 11:01:17,material_estudio,Practicar exposición de 5 minutos (storytelling).,Falta de práctica aplicada en Python.
+10,109,2025-08-17 04:31:59,material_estudio,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Brecha alta en SQL y comunicación.
+11,102,2025-07-27 00:07:20,idioma,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Brecha alta en SQL y comunicación.
+12,104,2025-07-24 15:59:39,prioridad_aprendizaje,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+13,47,2025-09-13 21:49:18,material_estudio,Practicar exposición de 5 minutos (storytelling).,Hito previo no consolidado (Git).
+14,122,2025-10-18 03:34:28,habito,Dedicar 30 min/día a lectura técnica en inglés.,Brecha alta en SQL y comunicación.
+15,198,2025-08-01 14:35:26,idioma,Hacer proyecto integrador con dataset público.,Hito previo no consolidado (Git).
+16,85,2025-06-05 13:03:13,habito,Hacer proyecto integrador con dataset público.,Brecha alta en SQL y comunicación.
+17,100,2025-07-24 14:42:45,material_estudio,Hacer proyecto integrador con dataset público.,Hito previo no consolidado (Git).
+18,53,2025-06-22 08:52:17,material_estudio,Hacer proyecto integrador con dataset público.,Hito previo no consolidado (Git).
+19,103,2025-04-28 21:08:11,habito,Completar módulo de DAX básico en Power BI.,Brecha alta en SQL y comunicación.
+20,172,2025-08-25 20:39:58,habito,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+21,36,2025-10-02 01:45:03,prioridad_aprendizaje,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+22,68,2025-08-28 00:26:51,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+23,175,2025-09-11 15:43:44,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+24,101,2025-06-03 04:40:35,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Brecha alta en SQL y comunicación.
+25,103,2025-09-19 08:49:33,material_estudio,Hacer proyecto integrador con dataset público.,Brecha alta en SQL y comunicación.
+26,122,2025-05-31 10:09:02,material_estudio,Hacer proyecto integrador con dataset público.,Brecha alta en SQL y comunicación.
+27,173,2025-08-12 05:44:32,material_estudio,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+28,144,2025-05-24 02:16:20,idioma,Completar módulo de DAX básico en Power BI.,Bajo puntaje en Inglés Conversacional.
+29,198,2025-09-27 09:11:23,material_estudio,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+30,118,2025-09-14 10:08:06,prioridad_aprendizaje,Hacer proyecto integrador con dataset público.,Hito previo no consolidado (Git).
+31,79,2025-08-20 19:14:33,habito,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Hito previo no consolidado (Git).
+32,151,2025-06-19 21:29:02,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+33,184,2025-09-06 06:01:13,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+34,84,2025-06-21 22:39:04,prioridad_aprendizaje,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+35,92,2025-09-21 17:07:46,idioma,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+36,98,2025-08-18 11:38:15,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+37,138,2025-07-18 11:43:49,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+38,67,2025-08-20 02:59:18,material_estudio,Completar módulo de DAX básico en Power BI.,Bajo puntaje en Inglés Conversacional.
+39,144,2025-10-18 09:20:42,habito,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Brecha alta en SQL y comunicación.
+40,179,2025-05-22 16:37:22,prioridad_aprendizaje,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+41,107,2025-07-24 18:11:51,prioridad_aprendizaje,Practicar exposición de 5 minutos (storytelling).,Hito previo no consolidado (Git).
+42,165,2025-06-15 20:16:53,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+43,166,2025-08-04 16:14:19,prioridad_aprendizaje,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+44,167,2025-10-06 10:30:26,habito,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+45,168,2025-08-01 10:24:11,prioridad_aprendizaje,Completar módulo de DAX básico en Power BI.,Brecha alta en SQL y comunicación.
+46,52,2025-07-20 08:22:19,prioridad_aprendizaje,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+47,14,2025-08-18 12:51:42,material_estudio,Practicar exposición de 5 minutos (storytelling).,Falta de práctica aplicada en Python.
+48,11,2025-07-19 20:42:47,prioridad_aprendizaje,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Brecha alta en SQL y comunicación.
+49,132,2025-08-24 08:47:48,prioridad_aprendizaje,Hacer proyecto integrador con dataset público.,Brecha alta en SQL y comunicación.
+50,117,2025-05-25 03:30:38,idioma,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Bajo puntaje en Inglés Conversacional.
+51,154,2025-07-13 17:13:31,material_estudio,Completar módulo de DAX básico en Power BI.,Falta de práctica aplicada en Python.
+52,135,2025-06-26 13:23:26,prioridad_aprendizaje,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+53,38,2025-08-02 11:16:47,habito,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+54,165,2025-08-27 19:28:49,idioma,Completar módulo de DAX básico en Power BI.,Brecha alta en SQL y comunicación.
+55,20,2025-07-14 13:24:04,prioridad_aprendizaje,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+56,185,2025-08-18 16:25:15,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+57,121,2025-07-12 01:43:51,idioma,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Brecha alta en SQL y comunicación.
+58,143,2025-04-30 15:11:15,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+59,160,2025-05-17 12:25:09,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+60,108,2025-05-31 23:56:50,habito,Completar módulo de DAX básico en Power BI.,Falta de práctica aplicada en Python.
+61,56,2025-06-26 12:31:35,idioma,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Falta de práctica aplicada en Python.
+62,86,2025-08-03 13:17:12,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Brecha alta en SQL y comunicación.
+63,46,2025-04-26 08:00:01,habito,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Falta de práctica aplicada en Python.
+64,42,2025-08-29 21:44:08,habito,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Hito previo no consolidado (Git).
+65,153,2025-04-27 19:29:25,prioridad_aprendizaje,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Bajo puntaje en Inglés Conversacional.
+66,118,2025-07-03 22:24:13,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+67,142,2025-10-17 19:24:36,habito,Hacer proyecto integrador con dataset público.,Hito previo no consolidado (Git).
+68,104,2025-10-01 00:02:11,prioridad_aprendizaje,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Hito previo no consolidado (Git).
+69,167,2025-09-18 23:41:14,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+70,194,2025-06-20 05:26:25,material_estudio,Practicar exposición de 5 minutos (storytelling).,Falta de práctica aplicada en Python.
+71,35,2025-10-05 04:26:12,habito,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+72,91,2025-06-06 08:58:50,idioma,Completar módulo de DAX básico en Power BI.,Brecha alta en SQL y comunicación.
+73,180,2025-08-05 15:56:04,idioma,Completar módulo de DAX básico en Power BI.,Falta de práctica aplicada en Python.
+74,174,2025-04-27 08:46:34,material_estudio,Practicar exposición de 5 minutos (storytelling).,Falta de práctica aplicada en Python.
+75,131,2025-08-08 09:09:36,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+76,184,2025-08-12 21:08:44,idioma,Practicar exposición de 5 minutos (storytelling).,Bajo puntaje en Inglés Conversacional.
+77,133,2025-07-04 22:40:09,habito,Practicar exposición de 5 minutos (storytelling).,Hito previo no consolidado (Git).
+78,39,2025-06-01 13:46:31,material_estudio,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Hito previo no consolidado (Git).
+79,10,2025-07-07 05:17:32,idioma,Practicar exposición de 5 minutos (storytelling).,Hito previo no consolidado (Git).
+80,73,2025-08-15 20:41:21,prioridad_aprendizaje,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Falta de práctica aplicada en Python.
+81,149,2025-06-23 11:35:05,idioma,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Bajo puntaje en Inglés Conversacional.
+82,192,2025-05-04 00:17:48,habito,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Hito previo no consolidado (Git).
+83,48,2025-05-26 09:34:37,idioma,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+84,3,2025-07-07 17:44:43,idioma,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+85,117,2025-08-12 17:36:20,idioma,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Bajo puntaje en Inglés Conversacional.
+86,89,2025-07-06 09:41:58,material_estudio,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+87,56,2025-06-25 11:08:25,idioma,Practicar exposición de 5 minutos (storytelling).,Hito previo no consolidado (Git).
+88,182,2025-07-29 09:50:30,idioma,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+89,96,2025-10-19 03:31:42,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+90,32,2025-06-11 04:20:20,habito,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+91,13,2025-08-03 19:30:57,habito,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+92,25,2025-06-26 18:37:04,material_estudio,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+93,196,2025-08-18 14:47:19,prioridad_aprendizaje,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Bajo puntaje en Inglés Conversacional.
+94,104,2025-04-26 02:50:04,prioridad_aprendizaje,Dedicar 30 min/día a lectura técnica en inglés.,Brecha alta en SQL y comunicación.
+95,75,2025-06-20 23:22:05,prioridad_aprendizaje,Practicar exposición de 5 minutos (storytelling).,Hito previo no consolidado (Git).
+96,38,2025-10-04 07:59:49,prioridad_aprendizaje,Completar módulo de DAX básico en Power BI.,Bajo puntaje en Inglés Conversacional.
+97,9,2025-10-10 06:47:13,habito,Hacer proyecto integrador con dataset público.,Brecha alta en SQL y comunicación.
+98,56,2025-06-21 13:28:49,prioridad_aprendizaje,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+99,133,2025-09-28 18:57:07,idioma,Completar módulo de DAX básico en Power BI.,Bajo puntaje en Inglés Conversacional.
+100,163,2025-10-05 00:29:53,idioma,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Brecha alta en SQL y comunicación.
+101,152,2025-08-21 05:16:11,idioma,Completar módulo de DAX básico en Power BI.,Hito previo no consolidado (Git).
+102,77,2025-05-25 05:32:14,material_estudio,Completar módulo de DAX básico en Power BI.,Brecha alta en SQL y comunicación.
+103,85,2025-08-22 19:25:29,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+104,60,2025-06-28 14:43:07,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+105,110,2025-07-16 08:05:03,prioridad_aprendizaje,Hacer proyecto integrador con dataset público.,Falta de práctica aplicada en Python.
+106,144,2025-10-17 02:02:00,idioma,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Brecha alta en SQL y comunicación.
+107,167,2025-10-07 16:17:53,habito,Practicar exposición de 5 minutos (storytelling).,Bajo puntaje en Inglés Conversacional.
+108,2,2025-05-10 17:54:17,idioma,Completar módulo de DAX básico en Power BI.,Bajo puntaje en Inglés Conversacional.
+109,161,2025-04-24 17:54:26,idioma,Hacer proyecto integrador con dataset público.,Hito previo no consolidado (Git).
+110,105,2025-05-13 17:20:34,idioma,Hacer proyecto integrador con dataset público.,Falta de práctica aplicada en Python.
+111,123,2025-05-23 21:41:23,habito,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+112,64,2025-09-25 15:48:19,habito,Practicar exposición de 5 minutos (storytelling).,Falta de práctica aplicada en Python.
+113,31,2025-09-09 05:37:38,material_estudio,Completar módulo de DAX básico en Power BI.,Bajo puntaje en Inglés Conversacional.
+114,19,2025-08-29 17:09:50,material_estudio,Practicar exposición de 5 minutos (storytelling).,Falta de práctica aplicada en Python.
+115,104,2025-05-13 00:42:05,prioridad_aprendizaje,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+116,126,2025-07-29 11:52:22,material_estudio,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Brecha alta en SQL y comunicación.
+117,128,2025-07-01 02:16:10,prioridad_aprendizaje,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Hito previo no consolidado (Git).
+118,23,2025-09-18 07:29:21,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+119,178,2025-06-27 23:18:13,prioridad_aprendizaje,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+120,133,2025-07-27 05:51:54,material_estudio,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Hito previo no consolidado (Git).
+121,11,2025-05-31 01:51:09,habito,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Falta de práctica aplicada en Python.
+122,80,2025-06-16 14:50:26,idioma,Completar módulo de DAX básico en Power BI.,Brecha alta en SQL y comunicación.
+123,200,2025-06-15 19:36:08,idioma,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+124,114,2025-09-16 19:14:46,idioma,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Bajo puntaje en Inglés Conversacional.
+125,81,2025-05-06 23:05:34,prioridad_aprendizaje,Practicar exposición de 5 minutos (storytelling).,Hito previo no consolidado (Git).
+126,83,2025-05-09 00:09:14,prioridad_aprendizaje,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+127,177,2025-08-10 10:27:38,habito,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+128,178,2025-06-09 14:16:44,material_estudio,Hacer proyecto integrador con dataset público.,Falta de práctica aplicada en Python.
+129,21,2025-06-15 05:51:31,habito,Practicar exposición de 5 minutos (storytelling).,Bajo puntaje en Inglés Conversacional.
+130,66,2025-05-01 09:34:35,prioridad_aprendizaje,Hacer proyecto integrador con dataset público.,Falta de práctica aplicada en Python.
+131,131,2025-04-24 11:44:38,habito,Completar módulo de DAX básico en Power BI.,Brecha alta en SQL y comunicación.
+132,187,2025-09-14 05:47:36,prioridad_aprendizaje,Completar módulo de DAX básico en Power BI.,Hito previo no consolidado (Git).
+133,67,2025-06-15 21:04:11,idioma,Completar módulo de DAX básico en Power BI.,Bajo puntaje en Inglés Conversacional.
+134,155,2025-08-31 14:38:05,prioridad_aprendizaje,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+135,166,2025-07-28 17:21:58,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Brecha alta en SQL y comunicación.
+136,73,2025-04-26 09:39:32,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+137,82,2025-10-14 13:39:21,habito,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+138,5,2025-09-19 00:07:38,material_estudio,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+139,46,2025-05-10 00:28:27,prioridad_aprendizaje,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Hito previo no consolidado (Git).
+140,101,2025-09-20 12:30:20,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+141,132,2025-07-05 09:25:32,idioma,Completar módulo de DAX básico en Power BI.,Brecha alta en SQL y comunicación.
+142,169,2025-07-19 13:57:11,prioridad_aprendizaje,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Hito previo no consolidado (Git).
+143,83,2025-05-24 18:43:13,habito,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+144,73,2025-09-05 14:08:35,idioma,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+145,53,2025-09-11 11:28:16,material_estudio,Completar módulo de DAX básico en Power BI.,Hito previo no consolidado (Git).
+146,34,2025-06-02 01:26:08,prioridad_aprendizaje,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Hito previo no consolidado (Git).
+147,77,2025-06-14 09:38:41,prioridad_aprendizaje,Hacer proyecto integrador con dataset público.,Brecha alta en SQL y comunicación.
+148,196,2025-09-20 10:59:52,idioma,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+149,130,2025-09-10 23:37:51,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+150,11,2025-09-03 03:39:16,prioridad_aprendizaje,Hacer proyecto integrador con dataset público.,Brecha alta en SQL y comunicación.
+151,139,2025-10-04 03:25:46,habito,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Brecha alta en SQL y comunicación.
+152,24,2025-06-01 23:35:35,material_estudio,Practicar exposición de 5 minutos (storytelling).,Hito previo no consolidado (Git).
+153,26,2025-05-12 21:30:39,habito,Hacer proyecto integrador con dataset público.,Falta de práctica aplicada en Python.
+154,142,2025-06-28 22:30:00,prioridad_aprendizaje,Completar módulo de DAX básico en Power BI.,Bajo puntaje en Inglés Conversacional.
+155,103,2025-06-09 23:57:23,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Brecha alta en SQL y comunicación.
+156,153,2025-08-29 15:03:48,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+157,117,2025-09-26 07:16:01,material_estudio,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Brecha alta en SQL y comunicación.
+158,81,2025-06-07 01:41:07,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+159,123,2025-06-16 03:32:23,habito,Completar módulo de DAX básico en Power BI.,Falta de práctica aplicada en Python.
+160,123,2025-09-12 06:16:26,prioridad_aprendizaje,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+161,164,2025-10-15 01:49:36,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+162,193,2025-05-06 13:00:03,habito,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+163,159,2025-08-13 08:02:52,habito,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Falta de práctica aplicada en Python.
+164,108,2025-10-11 09:16:36,idioma,Practicar exposición de 5 minutos (storytelling).,Hito previo no consolidado (Git).
+165,34,2025-10-10 16:24:29,idioma,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Bajo puntaje en Inglés Conversacional.
+166,84,2025-09-07 17:45:03,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+167,60,2025-04-26 20:23:05,material_estudio,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+168,190,2025-08-06 00:28:21,habito,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+169,96,2025-07-27 14:38:18,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+170,100,2025-08-02 14:03:33,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+171,14,2025-07-09 14:12:02,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+172,102,2025-06-09 13:24:39,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+173,12,2025-05-19 07:22:55,prioridad_aprendizaje,Practicar exposición de 5 minutos (storytelling).,Falta de práctica aplicada en Python.
+174,3,2025-08-23 08:17:07,prioridad_aprendizaje,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+175,151,2025-05-02 17:05:28,prioridad_aprendizaje,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Brecha alta en SQL y comunicación.
+176,190,2025-06-09 06:39:38,prioridad_aprendizaje,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Falta de práctica aplicada en Python.
+177,35,2025-04-28 17:34:18,habito,Completar módulo de DAX básico en Power BI.,Bajo puntaje en Inglés Conversacional.
+178,177,2025-06-02 01:10:20,idioma,Completar módulo de DAX básico en Power BI.,Hito previo no consolidado (Git).
+179,179,2025-08-18 05:18:22,habito,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Brecha alta en SQL y comunicación.
+180,148,2025-08-28 06:45:54,material_estudio,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+181,13,2025-08-23 05:39:36,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+182,119,2025-06-30 22:33:53,idioma,Completar módulo de DAX básico en Power BI.,Falta de práctica aplicada en Python.
+183,66,2025-09-28 17:59:12,habito,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+184,12,2025-06-25 03:42:50,habito,Hacer proyecto integrador con dataset público.,Falta de práctica aplicada en Python.
+185,178,2025-06-18 14:36:59,habito,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Brecha alta en SQL y comunicación.
+186,32,2025-08-10 10:48:33,prioridad_aprendizaje,Hacer proyecto integrador con dataset público.,Brecha alta en SQL y comunicación.
+187,184,2025-08-08 14:56:14,idioma,Completar módulo de DAX básico en Power BI.,Falta de práctica aplicada en Python.
+188,136,2025-06-04 05:58:32,habito,Completar módulo de DAX básico en Power BI.,Falta de práctica aplicada en Python.
+189,102,2025-07-12 01:43:49,material_estudio,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Falta de práctica aplicada en Python.
+190,39,2025-05-18 03:48:12,idioma,Hacer proyecto integrador con dataset público.,Hito previo no consolidado (Git).
+191,14,2025-06-24 08:29:17,idioma,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+192,61,2025-09-28 19:22:21,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+193,36,2025-06-23 07:47:11,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+194,3,2025-06-20 17:58:14,idioma,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Hito previo no consolidado (Git).
+195,104,2025-04-27 07:41:26,material_estudio,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Falta de práctica aplicada en Python.
+196,17,2025-07-04 06:30:56,habito,Dedicar 30 min/día a lectura técnica en inglés.,Brecha alta en SQL y comunicación.
+197,96,2025-06-01 20:35:24,prioridad_aprendizaje,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+198,59,2025-09-03 03:09:02,prioridad_aprendizaje,Practicar exposición de 5 minutos (storytelling).,Hito previo no consolidado (Git).
+199,25,2025-06-24 13:46:57,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+200,135,2025-07-18 15:41:04,prioridad_aprendizaje,Completar módulo de DAX básico en Power BI.,Bajo puntaje en Inglés Conversacional.
+201,46,2025-06-12 20:25:21,habito,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+202,63,2025-08-16 21:57:52,habito,Completar módulo de DAX básico en Power BI.,Hito previo no consolidado (Git).
+203,146,2025-06-14 17:34:22,prioridad_aprendizaje,Practicar exposición de 5 minutos (storytelling).,Falta de práctica aplicada en Python.
+204,188,2025-09-15 22:29:05,habito,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Brecha alta en SQL y comunicación.
+205,175,2025-09-28 19:31:32,habito,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+206,82,2025-09-11 12:54:07,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Brecha alta en SQL y comunicación.
+207,195,2025-08-27 01:29:28,idioma,Practicar exposición de 5 minutos (storytelling).,Falta de práctica aplicada en Python.
+208,184,2025-07-11 18:36:22,material_estudio,Practicar exposición de 5 minutos (storytelling).,Falta de práctica aplicada en Python.
+209,100,2025-10-13 02:10:24,prioridad_aprendizaje,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+210,50,2025-10-12 07:12:56,habito,Hacer proyecto integrador con dataset público.,Hito previo no consolidado (Git).
+211,68,2025-08-23 23:55:48,idioma,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+212,96,2025-09-04 13:03:00,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+213,63,2025-09-16 02:00:04,idioma,Practicar exposición de 5 minutos (storytelling).,Brecha alta en SQL y comunicación.
+214,139,2025-06-14 17:37:25,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Brecha alta en SQL y comunicación.
+215,145,2025-05-30 05:57:32,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Falta de práctica aplicada en Python.
+216,111,2025-07-28 03:15:16,material_estudio,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Bajo puntaje en Inglés Conversacional.
+217,37,2025-09-05 05:32:25,idioma,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Bajo puntaje en Inglés Conversacional.
+218,54,2025-08-12 00:29:08,idioma,Completar módulo de DAX básico en Power BI.,Falta de práctica aplicada en Python.
+219,11,2025-05-30 07:59:05,material_estudio,Completar módulo de DAX básico en Power BI.,Bajo puntaje en Inglés Conversacional.
+220,196,2025-05-26 00:37:45,idioma,Practicar exposición de 5 minutos (storytelling).,Hito previo no consolidado (Git).
+221,159,2025-10-08 02:21:47,material_estudio,Completar módulo de DAX básico en Power BI.,Bajo puntaje en Inglés Conversacional.
+222,113,2025-07-25 03:09:13,material_estudio,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.
+223,58,2025-09-11 04:44:16,habito,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Brecha alta en SQL y comunicación.
+224,35,2025-06-09 11:30:41,material_estudio,Dedicar 30 min/día a lectura técnica en inglés.,Brecha alta en SQL y comunicación.
+225,65,2025-09-04 22:43:14,prioridad_aprendizaje,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+226,158,2025-05-30 21:17:34,material_estudio,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Falta de práctica aplicada en Python.
+227,76,2025-05-21 01:29:07,material_estudio,Completar módulo de DAX básico en Power BI.,Hito previo no consolidado (Git).
+228,169,2025-05-07 21:59:23,material_estudio,Hacer proyecto integrador con dataset público.,Brecha alta en SQL y comunicación.
+229,173,2025-07-27 01:10:05,habito,Completar módulo de DAX básico en Power BI.,Brecha alta en SQL y comunicación.
+230,85,2025-10-04 20:25:06,habito,Completar módulo de DAX básico en Power BI.,Bajo puntaje en Inglés Conversacional.
+231,100,2025-05-05 09:17:51,idioma,Completar módulo de DAX básico en Power BI.,Hito previo no consolidado (Git).
+232,146,2025-09-05 03:19:02,prioridad_aprendizaje,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Bajo puntaje en Inglés Conversacional.
+233,32,2025-04-29 22:13:40,prioridad_aprendizaje,Practicar exposición de 5 minutos (storytelling).,Falta de práctica aplicada en Python.
+234,63,2025-06-04 15:40:54,material_estudio,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Hito previo no consolidado (Git).
+235,161,2025-09-11 22:20:11,material_estudio,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Hito previo no consolidado (Git).
+236,116,2025-07-23 23:23:09,idioma,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Bajo puntaje en Inglés Conversacional.
+237,20,2025-07-13 15:07:14,prioridad_aprendizaje,Practicar exposición de 5 minutos (storytelling).,Hito previo no consolidado (Git).
+238,77,2025-09-12 23:32:04,idioma,Dedicar 30 min/día a lectura técnica en inglés.,Hito previo no consolidado (Git).
+239,1,2025-06-03 11:12:47,habito,Dedicar 30 min/día a lectura técnica en inglés.,Bajo puntaje en Inglés Conversacional.
+240,97,2025-09-26 01:54:28,prioridad_aprendizaje,Completar módulo de DAX básico en Power BI.,Falta de práctica aplicada en Python.
+241,44,2025-08-23 08:34:04,habito,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Falta de práctica aplicada en Python.
+242,22,2025-09-12 13:20:30,prioridad_aprendizaje,Practicar exposición de 5 minutos (storytelling).,Falta de práctica aplicada en Python.
+243,187,2025-05-04 14:58:03,material_estudio,Practicar exposición de 5 minutos (storytelling).,Falta de práctica aplicada en Python.
+244,5,2025-09-02 08:32:26,idioma,Practicar exposición de 5 minutos (storytelling).,Falta de práctica aplicada en Python.
+245,130,2025-05-26 15:15:27,idioma,Practicar exposición de 5 minutos (storytelling).,Hito previo no consolidado (Git).
+246,36,2025-07-05 07:06:42,prioridad_aprendizaje,Practicar exposición de 5 minutos (storytelling).,Bajo puntaje en Inglés Conversacional.
+247,4,2025-10-04 20:33:05,prioridad_aprendizaje,Resolver 10 ejercicios de JOIN y ventanas en SQL.,Hito previo no consolidado (Git).
+248,49,2025-09-27 11:50:03,habito,Practicar exposición de 5 minutos (storytelling).,Falta de práctica aplicada en Python.
+249,106,2025-09-12 18:00:48,prioridad_aprendizaje,Completar módulo de DAX básico en Power BI.,Hito previo no consolidado (Git).
+250,69,2025-06-24 09:15:08,idioma,Hacer proyecto integrador con dataset público.,Bajo puntaje en Inglés Conversacional.

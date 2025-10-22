@@ -1,0 +1,33 @@
+id_competencia,nombre_competencia,tipo,descripcion
+1,SQL,tecnica,Competencia tecnica - SQL
+2,Excel,tecnica,Competencia tecnica - Excel
+3,Python,tecnica,Competencia tecnica - Python
+4,Power BI,tecnica,Competencia tecnica - Power BI
+5,Machine Learning,tecnica,Competencia tecnica - Machine Learning
+6,Estadística,tecnica,Competencia tecnica - Estadística
+7,ETL/ELT,tecnica,Competencia tecnica - ETL/ELT
+8,Modelado de Datos,tecnica,Competencia tecnica - Modelado de Datos
+9,Git,tecnica,Competencia tecnica - Git
+10,Cloud AWS,tecnica,Competencia tecnica - Cloud AWS
+11,Cloud Azure,tecnica,Competencia tecnica - Cloud Azure
+12,Cloud GCP,tecnica,Competencia tecnica - Cloud GCP
+13,Docker,tecnica,Competencia tecnica - Docker
+14,Kubernetes,tecnica,Competencia tecnica - Kubernetes
+15,Spark,tecnica,Competencia tecnica - Spark
+16,Airflow,tecnica,Competencia tecnica - Airflow
+17,dbt,tecnica,Competencia tecnica - dbt
+18,Looker,tecnica,Competencia tecnica - Looker
+19,Tableau,tecnica,Competencia tecnica - Tableau
+20,Inglés Técnico,tecnica,Competencia tecnica - Inglés Técnico
+21,Comunicación,blanda,Competencia blanda - Comunicación
+22,Pensamiento Crítico,blanda,Competencia blanda - Pensamiento Crítico
+23,Trabajo en Equipo,blanda,Competencia blanda - Trabajo en Equipo
+24,Gestión del Tiempo,blanda,Competencia blanda - Gestión del Tiempo
+25,Resolución de Problemas,blanda,Competencia blanda - Resolución de Problemas
+26,Liderazgo,blanda,Competencia blanda - Liderazgo
+27,Narrativa de Datos,blanda,Competencia blanda - Narrativa de Datos
+28,Negociación,blanda,Competencia blanda - Negociación
+29,Mentoría,blanda,Competencia blanda - Mentoría
+30,Inglés Conversacional,idioma,Competencia idioma - Inglés Conversacional
+31,Inglés Lectura,idioma,Competencia idioma - Inglés Lectura
+32,Inglés Escritura,idioma,Competencia idioma - Inglés Escritura

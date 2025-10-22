@@ -5,16 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class PerfilObjetivo extends Model
+class Hito extends Model
 {
     use HasFactory;
 
     public $timestamps = false;
 
-    protected $table = 'perfiles_objetivo';
-
     protected $fillable = [
-        'nombre_perfil',
+        'nombre_hito',
         'descripcion',
+        'tipo',
+        'dificultad',
+        'horas_estimadas',
     ];
 }
