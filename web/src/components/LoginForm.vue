@@ -150,22 +150,42 @@ const handleLogin = async () => {
   isLoading.value = true;
 
   try {
-    // Aquí iría la lógica de autenticación con el backend
-    // Por ahora simulamos una petición
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    
-    console.log('Login data:', {
-      email: formData.email,
-      password: formData.password,
-      remember: formData.remember
+    // Hacer petición POST al backend
+    const response = await fetch('http://10.0.0.45:8000/api/users/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+      },
+      body: JSON.stringify({
+        email: formData.email,
+        password: formData.password
+      })
     });
 
+    const data = await response.json();
+
+    if (!response.ok) {
+      // Si hay error en la respuesta
+      errors.email = data.message || 'Credenciales inválidas. Por favor, intenta nuevamente.';
+      return;
+    }
+
+    // Login exitoso
+    console.log('Login exitoso:', data);
+    
+    // Guardar el token si se quiere recordar
+    if (formData.remember && data.token) {
+      localStorage.setItem('auth_token', data.token);
+      localStorage.setItem('user', JSON.stringify(data.user));
+    }
+
     // Redireccionar al dashboard o página principal
-    // window.location.href = '/dashboard';
+    window.location.href = '/diagnostic';
     
   } catch (error) {
     console.error('Error en login:', error);
-    errors.email = 'Credenciales inválidas. Por favor, intenta nuevamente.';
+    errors.email = 'Error de conexión. Por favor, intenta nuevamente.';
   } finally {
     isLoading.value = false;
   }
