@@ -24,7 +24,7 @@ Este módulo implementa la interfaz de diagnóstico inicial de Skill.IA, un sist
    - Generación de diagnóstico personalizado
    - Sistema de detección de patrones de aprendizaje
 
-## Arquitectura de IA
+## Arquitectura de Inteligencia Artificial
 
 ### Estructura del Servicio
 
