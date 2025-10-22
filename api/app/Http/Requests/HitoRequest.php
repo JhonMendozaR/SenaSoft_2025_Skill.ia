@@ -4,13 +4,16 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class PerfilObjetivoRequest extends FormRequest
+class HitoRequest extends FormRequest
 {
     public function rules()
     {
         return [
-            'nombre_perfil' => ['required'],
+            'nombre_hito' => ['required'],
             'descripcion' => ['nullable'],
+            'tipo' => ['required'],
+            'dificultad' => ['required'],
+            'horas_estimadas' => ['required', 'integer'],
         ];
     }
 

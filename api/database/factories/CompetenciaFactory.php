@@ -2,17 +2,18 @@
 
 namespace Database\Factories;
 
-use App\Models\PerfilObjetivo;
+use App\Models\Competencia;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class PerfilObjetivoFactory extends Factory
+class CompetenciaFactory extends Factory
 {
-    protected $model = PerfilObjetivo::class;
+    protected $model = Competencia::class;
 
     public function definition()
     {
         return [
-            'nombre_perfil' => $this->faker->word(),
+            'nombre_competencia' => $this->faker->word(),
+            'tipo' => $this->faker->word(),
             'descripcion' => $this->faker->word(),
         ];
     }

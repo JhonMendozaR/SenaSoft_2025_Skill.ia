@@ -6,9 +6,11 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
-class User extends Authenticatable
+class Usuario extends Authenticatable
 {
     use HasFactory, Notifiable;
+
+    public $timestamps = false;
 
     protected $fillable = [
         'nombres',
@@ -16,22 +18,29 @@ class User extends Authenticatable
         'cedula',
         'telefono',
         'email',
-        'password',
+        'contrasena_hash',
         'departamento',
         'ciudad',
         'barrio',
         'direccion',
         'experiencia_anos',
+        'sector',
+        'aspiracion',
+        'nivel_ingles_autoreporte',
+        'seniority_autoreporte',
+        'regimen_vinculacion',
+        'perfil_objetivo_id',
+        'fecha_registro'
     ];
 
     protected $hidden = [
-        'password',
+        'contrasena_hash',
     ];
 
     protected function casts(): array
     {
         return [
-            'password' => 'hashed',
+            'contrasena_hash' => 'hashed',
         ];
     }
 }

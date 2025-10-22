@@ -1,0 +1,601 @@
+id_interaccion,id_usuario,fecha_hora,intencion,tono_agente,canal,duracion_segundos,satisfaccion_usuario,texto_resumen
+1,137,2025-04-22 21:13:33,seguimiento,estrategico,movil,392,3,Se ajustó orden de hitos por disponibilidad.
+2,45,2025-08-02 12:09:36,consulta_hito,empatico,movil,530,3,Se recomendó practicar ejercicios de SQL.
+3,93,2025-07-17 10:12:28,diagnostico,empatico,email,275,3,Se recomendó practicar ejercicios de SQL.
+4,74,2025-10-02 15:48:14,recomendacion,directo,movil,93,1,Se revisó avance del hito Python básico.
+5,50,2025-06-03 01:52:16,seguimiento,estrategico,email,101,4,Se sugirió priorizar Inglés B1 antes de ML.
+6,199,2025-09-05 19:55:52,consulta_hito,directo,whatsapp,185,4,Se revisó avance del hito Python básico.
+7,8,2025-06-17 15:03:50,motivacion,didactico,movil,89,4,Se recomendó practicar ejercicios de SQL.
+8,183,2025-04-09 02:32:45,motivacion,empatico,web,411,2,Se explicó ruta de aprendizaje inicial.
+9,66,2025-08-09 23:00:31,consulta_hito,empatico,email,250,3,Se ajustó orden de hitos por disponibilidad.
+10,129,2025-05-30 10:50:22,recomendacion,directo,whatsapp,250,3,Se explicó ruta de aprendizaje inicial.
+11,10,2025-05-14 12:47:27,motivacion,empatico,email,466,4,Se ajustó orden de hitos por disponibilidad.
+12,74,2025-10-20 21:32:42,diagnostico,didactico,whatsapp,191,3,Se recomendó practicar ejercicios de SQL.
+13,66,2025-08-21 19:24:42,recomendacion,estrategico,email,69,5,Se revisó avance del hito Python básico.
+14,137,2025-08-22 15:36:45,diagnostico,didactico,movil,476,5,Se explicó ruta de aprendizaje inicial.
+15,4,2025-08-06 16:13:24,consulta_hito,empatico,movil,564,4,Se ajustó orden de hitos por disponibilidad.
+16,132,2025-07-12 09:59:23,motivacion,didactico,email,555,5,Se revisó avance del hito Python básico.
+17,196,2025-04-27 20:47:02,recomendacion,estrategico,email,151,4,Se explicó ruta de aprendizaje inicial.
+18,71,2025-09-25 17:48:13,consulta_hito,estrategico,email,253,1,Se explicó ruta de aprendizaje inicial.
+19,187,2025-08-30 07:17:34,recomendacion,directo,whatsapp,150,2,Se ajustó orden de hitos por disponibilidad.
+20,167,2025-07-01 03:00:48,motivacion,didactico,movil,548,2,Se revisó avance del hito Python básico.
+21,146,2025-05-14 06:53:06,consulta_hito,empatico,email,45,4,Se revisó avance del hito Python básico.
+22,146,2025-06-24 19:08:36,consulta_hito,empatico,movil,186,2,Se explicó ruta de aprendizaje inicial.
+23,12,2025-05-19 15:13:38,diagnostico,directo,movil,194,1,Se explicó ruta de aprendizaje inicial.
+24,17,2025-09-01 02:10:48,seguimiento,didactico,email,132,1,Se explicó ruta de aprendizaje inicial.
+25,131,2025-10-07 22:46:26,seguimiento,empatico,web,575,1,Se recomendó practicar ejercicios de SQL.
+26,49,2025-08-26 22:30:32,seguimiento,empatico,whatsapp,78,2,Se ajustó orden de hitos por disponibilidad.
+27,75,2025-08-06 05:16:55,consulta_hito,empatico,web,509,3,Se sugirió priorizar Inglés B1 antes de ML.
+28,193,2025-05-27 21:34:07,consulta_hito,estrategico,whatsapp,433,5,Se recomendó practicar ejercicios de SQL.
+29,174,2025-05-12 03:12:00,diagnostico,empatico,movil,32,4,Se sugirió priorizar Inglés B1 antes de ML.
+30,47,2025-04-05 13:39:36,recomendacion,estrategico,whatsapp,403,4,Se explicó ruta de aprendizaje inicial.
+31,85,2025-04-11 19:08:03,diagnostico,didactico,email,414,4,Se recomendó practicar ejercicios de SQL.
+32,24,2025-05-02 21:03:58,diagnostico,didactico,whatsapp,321,1,Se explicó ruta de aprendizaje inicial.
+33,181,2025-06-30 12:12:20,recomendacion,empatico,email,569,3,Se explicó ruta de aprendizaje inicial.
+34,103,2025-07-17 14:57:34,motivacion,didactico,web,550,5,Se explicó ruta de aprendizaje inicial.
+35,95,2025-06-18 19:12:17,seguimiento,didactico,movil,316,5,Se revisó avance del hito Python básico.
+36,97,2025-09-08 14:13:25,consulta_hito,didactico,email,30,5,Se revisó avance del hito Python básico.
+37,139,2025-09-19 12:59:53,motivacion,empatico,email,556,4,Se ajustó orden de hitos por disponibilidad.
+38,19,2025-08-23 14:28:21,diagnostico,estrategico,email,199,3,Se sugirió priorizar Inglés B1 antes de ML.
+39,20,2025-09-27 16:56:02,seguimiento,empatico,movil,144,1,Se explicó ruta de aprendizaje inicial.
+40,34,2025-09-18 19:53:04,recomendacion,didactico,movil,404,1,Se recomendó practicar ejercicios de SQL.
+41,21,2025-04-06 11:26:01,motivacion,estrategico,movil,89,4,Se recomendó practicar ejercicios de SQL.
+42,86,2025-10-19 11:08:05,recomendacion,empatico,email,513,4,Se recomendó practicar ejercicios de SQL.
+43,181,2025-05-09 05:48:00,consulta_hito,didactico,whatsapp,409,5,Se revisó avance del hito Python básico.
+44,20,2025-05-11 17:04:35,motivacion,directo,whatsapp,109,5,Se ajustó orden de hitos por disponibilidad.
+45,104,2025-05-27 17:04:37,seguimiento,estrategico,movil,181,2,Se ajustó orden de hitos por disponibilidad.
+46,123,2025-08-12 00:33:30,motivacion,empatico,email,69,3,Se recomendó practicar ejercicios de SQL.
+47,69,2025-05-25 10:16:02,diagnostico,estrategico,whatsapp,396,4,Se explicó ruta de aprendizaje inicial.
+48,82,2025-09-20 04:33:02,motivacion,directo,web,159,2,Se recomendó practicar ejercicios de SQL.
+49,128,2025-04-04 05:31:39,motivacion,empatico,web,79,4,Se revisó avance del hito Python básico.
+50,181,2025-08-15 02:13:35,seguimiento,estrategico,web,485,2,Se revisó avance del hito Python básico.
+51,35,2025-07-21 08:15:58,seguimiento,directo,movil,588,5,Se recomendó practicar ejercicios de SQL.
+52,185,2025-07-21 22:44:09,diagnostico,empatico,web,512,5,Se ajustó orden de hitos por disponibilidad.
+53,47,2025-06-05 16:49:21,recomendacion,didactico,movil,107,2,Se sugirió priorizar Inglés B1 antes de ML.
+54,19,2025-09-02 11:14:00,motivacion,estrategico,web,508,1,Se explicó ruta de aprendizaje inicial.
+55,90,2025-04-27 02:53:50,diagnostico,empatico,whatsapp,16,5,Se revisó avance del hito Python básico.
+56,119,2025-05-16 14:50:45,diagnostico,estrategico,movil,452,1,Se explicó ruta de aprendizaje inicial.
+57,191,2025-08-23 01:49:26,consulta_hito,didactico,web,598,2,Se revisó avance del hito Python básico.
+58,12,2025-04-16 22:56:23,seguimiento,empatico,email,336,1,Se explicó ruta de aprendizaje inicial.
+59,124,2025-07-12 19:01:15,diagnostico,estrategico,whatsapp,315,2,Se revisó avance del hito Python básico.
+60,146,2025-10-03 02:04:03,seguimiento,directo,email,367,2,Se ajustó orden de hitos por disponibilidad.
+61,66,2025-07-21 13:41:41,seguimiento,empatico,email,105,5,Se ajustó orden de hitos por disponibilidad.
+62,37,2025-10-05 08:13:05,consulta_hito,estrategico,web,233,1,Se explicó ruta de aprendizaje inicial.
+63,67,2025-08-11 06:07:44,diagnostico,directo,whatsapp,589,5,Se sugirió priorizar Inglés B1 antes de ML.
+64,57,2025-06-14 08:16:59,diagnostico,didactico,whatsapp,233,3,Se sugirió priorizar Inglés B1 antes de ML.
+65,66,2025-07-07 04:09:32,recomendacion,directo,email,557,1,Se sugirió priorizar Inglés B1 antes de ML.
+66,70,2025-09-20 07:23:05,diagnostico,didactico,email,213,5,Se ajustó orden de hitos por disponibilidad.
+67,57,2025-07-10 19:54:25,recomendacion,directo,whatsapp,196,3,Se revisó avance del hito Python básico.
+68,98,2025-07-28 21:43:55,seguimiento,directo,web,353,3,Se explicó ruta de aprendizaje inicial.
+69,115,2025-09-23 18:26:55,recomendacion,empatico,email,383,4,Se ajustó orden de hitos por disponibilidad.
+70,86,2025-08-19 01:55:54,diagnostico,estrategico,email,178,2,Se ajustó orden de hitos por disponibilidad.
+71,47,2025-04-07 23:40:47,motivacion,empatico,whatsapp,347,1,Se explicó ruta de aprendizaje inicial.
+72,127,2025-08-02 09:27:37,diagnostico,empatico,movil,117,1,Se explicó ruta de aprendizaje inicial.
+73,119,2025-10-18 07:17:59,seguimiento,empatico,web,160,3,Se recomendó practicar ejercicios de SQL.
+74,181,2025-09-24 02:23:13,seguimiento,empatico,movil,187,1,Se sugirió priorizar Inglés B1 antes de ML.
+75,184,2025-08-26 06:27:21,consulta_hito,estrategico,whatsapp,100,2,Se explicó ruta de aprendizaje inicial.
+76,22,2025-05-26 17:25:29,consulta_hito,didactico,whatsapp,594,3,Se explicó ruta de aprendizaje inicial.
+77,3,2025-06-04 12:46:32,seguimiento,empatico,web,342,1,Se recomendó practicar ejercicios de SQL.
+78,55,2025-06-14 07:30:31,recomendacion,estrategico,email,362,1,Se sugirió priorizar Inglés B1 antes de ML.
+79,73,2025-04-21 05:26:49,seguimiento,empatico,email,210,2,Se sugirió priorizar Inglés B1 antes de ML.
+80,153,2025-04-23 10:29:47,recomendacion,estrategico,web,251,1,Se explicó ruta de aprendizaje inicial.
+81,3,2025-09-03 16:54:49,recomendacion,directo,whatsapp,27,2,Se ajustó orden de hitos por disponibilidad.
+82,31,2025-04-05 08:57:41,recomendacion,estrategico,movil,47,2,Se sugirió priorizar Inglés B1 antes de ML.
+83,12,2025-10-17 21:43:02,motivacion,estrategico,web,88,5,Se recomendó practicar ejercicios de SQL.
+84,161,2025-05-10 15:11:43,consulta_hito,estrategico,movil,573,3,Se recomendó practicar ejercicios de SQL.
+85,195,2025-07-07 19:45:56,recomendacion,estrategico,movil,61,3,Se sugirió priorizar Inglés B1 antes de ML.
+86,19,2025-04-17 02:56:39,diagnostico,didactico,email,598,5,Se explicó ruta de aprendizaje inicial.
+87,165,2025-04-11 16:07:06,seguimiento,didactico,web,90,5,Se sugirió priorizar Inglés B1 antes de ML.
+88,184,2025-09-21 18:54:08,seguimiento,estrategico,web,262,4,Se ajustó orden de hitos por disponibilidad.
+89,69,2025-05-22 20:54:01,consulta_hito,directo,whatsapp,329,5,Se recomendó practicar ejercicios de SQL.
+90,58,2025-04-12 04:08:18,diagnostico,didactico,email,484,4,Se revisó avance del hito Python básico.
+91,86,2025-08-09 14:59:48,diagnostico,directo,movil,371,1,Se explicó ruta de aprendizaje inicial.
+92,127,2025-06-25 17:45:29,seguimiento,estrategico,whatsapp,148,4,Se revisó avance del hito Python básico.
+93,74,2025-05-15 06:47:17,seguimiento,estrategico,movil,77,2,Se ajustó orden de hitos por disponibilidad.
+94,180,2025-06-01 05:57:01,consulta_hito,directo,whatsapp,353,1,Se explicó ruta de aprendizaje inicial.
+95,4,2025-04-16 14:44:23,motivacion,empatico,email,62,3,Se revisó avance del hito Python básico.
+96,2,2025-09-11 23:45:44,motivacion,estrategico,movil,29,2,Se explicó ruta de aprendizaje inicial.
+97,23,2025-08-31 08:20:34,seguimiento,didactico,movil,154,5,Se explicó ruta de aprendizaje inicial.
+98,73,2025-08-12 02:50:08,seguimiento,estrategico,email,346,5,Se revisó avance del hito Python básico.
+99,23,2025-06-09 14:43:13,motivacion,didactico,whatsapp,186,4,Se explicó ruta de aprendizaje inicial.
+100,60,2025-07-06 12:25:59,seguimiento,directo,web,159,4,Se recomendó practicar ejercicios de SQL.
+101,91,2025-06-15 15:37:34,diagnostico,estrategico,email,489,1,Se ajustó orden de hitos por disponibilidad.
+102,33,2025-04-04 15:11:18,seguimiento,empatico,web,367,2,Se revisó avance del hito Python básico.
+103,183,2025-04-06 13:59:43,consulta_hito,directo,email,187,1,Se ajustó orden de hitos por disponibilidad.
+104,186,2025-06-09 14:01:12,diagnostico,estrategico,web,549,5,Se sugirió priorizar Inglés B1 antes de ML.
+105,186,2025-04-05 20:48:53,recomendacion,empatico,email,123,1,Se ajustó orden de hitos por disponibilidad.
+106,112,2025-06-25 07:41:11,motivacion,estrategico,whatsapp,578,5,Se explicó ruta de aprendizaje inicial.
+107,187,2025-08-03 17:50:27,motivacion,didactico,email,186,1,Se sugirió priorizar Inglés B1 antes de ML.
+108,143,2025-04-21 11:19:48,diagnostico,estrategico,movil,505,5,Se ajustó orden de hitos por disponibilidad.
+109,56,2025-04-30 07:01:05,motivacion,didactico,movil,535,5,Se sugirió priorizar Inglés B1 antes de ML.
+110,45,2025-10-18 21:47:07,recomendacion,estrategico,whatsapp,69,1,Se ajustó orden de hitos por disponibilidad.
+111,36,2025-06-08 11:57:53,seguimiento,directo,web,70,2,Se ajustó orden de hitos por disponibilidad.
+112,55,2025-07-27 14:19:25,motivacion,directo,movil,153,2,Se explicó ruta de aprendizaje inicial.
+113,65,2025-05-08 15:31:21,recomendacion,estrategico,email,300,2,Se revisó avance del hito Python básico.
+114,192,2025-05-16 19:29:47,diagnostico,didactico,whatsapp,215,1,Se revisó avance del hito Python básico.
+115,189,2025-04-09 06:33:20,consulta_hito,empatico,movil,66,3,Se revisó avance del hito Python básico.
+116,57,2025-05-25 03:50:16,consulta_hito,didactico,email,382,2,Se explicó ruta de aprendizaje inicial.
+117,63,2025-08-27 00:55:35,consulta_hito,empatico,movil,530,1,Se sugirió priorizar Inglés B1 antes de ML.
+118,86,2025-04-22 11:21:24,seguimiento,estrategico,email,216,1,Se explicó ruta de aprendizaje inicial.
+119,89,2025-07-02 20:15:25,seguimiento,didactico,email,379,4,Se ajustó orden de hitos por disponibilidad.
+120,25,2025-06-30 07:04:29,consulta_hito,empatico,web,180,5,Se explicó ruta de aprendizaje inicial.
+121,107,2025-05-02 22:56:48,seguimiento,estrategico,email,56,2,Se ajustó orden de hitos por disponibilidad.
+122,192,2025-06-27 22:26:59,diagnostico,empatico,whatsapp,268,5,Se recomendó practicar ejercicios de SQL.
+123,18,2025-09-01 12:59:16,seguimiento,directo,movil,596,1,Se revisó avance del hito Python básico.
+124,31,2025-09-14 05:46:32,seguimiento,empatico,web,390,4,Se ajustó orden de hitos por disponibilidad.
+125,95,2025-09-13 10:03:27,seguimiento,didactico,web,407,2,Se sugirió priorizar Inglés B1 antes de ML.
+126,40,2025-05-06 20:56:49,motivacion,didactico,whatsapp,385,1,Se recomendó practicar ejercicios de SQL.
+127,149,2025-07-24 15:25:56,recomendacion,estrategico,web,466,4,Se sugirió priorizar Inglés B1 antes de ML.
+128,51,2025-08-01 02:40:02,motivacion,directo,movil,596,4,Se recomendó practicar ejercicios de SQL.
+129,3,2025-07-30 14:36:30,motivacion,didactico,movil,479,2,Se revisó avance del hito Python básico.
+130,44,2025-08-31 20:35:33,consulta_hito,didactico,web,105,3,Se revisó avance del hito Python básico.
+131,66,2025-06-27 06:20:50,seguimiento,directo,whatsapp,583,3,Se recomendó practicar ejercicios de SQL.
+132,173,2025-06-01 23:13:49,diagnostico,empatico,email,115,5,Se sugirió priorizar Inglés B1 antes de ML.
+133,38,2025-07-06 10:52:25,recomendacion,empatico,email,284,2,Se revisó avance del hito Python básico.
+134,144,2025-08-13 19:08:08,consulta_hito,directo,whatsapp,486,2,Se recomendó practicar ejercicios de SQL.
+135,171,2025-04-26 13:51:39,recomendacion,directo,movil,266,3,Se revisó avance del hito Python básico.
+136,9,2025-07-06 18:10:37,diagnostico,empatico,whatsapp,556,4,Se sugirió priorizar Inglés B1 antes de ML.
+137,8,2025-08-27 09:36:25,recomendacion,estrategico,email,414,5,Se recomendó practicar ejercicios de SQL.
+138,128,2025-08-10 16:28:27,seguimiento,didactico,whatsapp,358,2,Se recomendó practicar ejercicios de SQL.
+139,62,2025-09-20 18:14:16,recomendacion,didactico,whatsapp,417,4,Se ajustó orden de hitos por disponibilidad.
+140,199,2025-10-16 11:18:01,seguimiento,empatico,email,228,3,Se revisó avance del hito Python básico.
+141,21,2025-06-11 23:29:43,recomendacion,estrategico,whatsapp,37,5,Se explicó ruta de aprendizaje inicial.
+142,147,2025-08-11 03:48:04,motivacion,estrategico,web,364,2,Se sugirió priorizar Inglés B1 antes de ML.
+143,153,2025-05-29 14:02:43,recomendacion,estrategico,email,421,3,Se sugirió priorizar Inglés B1 antes de ML.
+144,47,2025-05-18 00:43:15,consulta_hito,empatico,email,297,2,Se revisó avance del hito Python básico.
+145,95,2025-05-20 06:59:01,recomendacion,directo,email,140,3,Se explicó ruta de aprendizaje inicial.
+146,171,2025-07-16 00:48:48,motivacion,directo,movil,176,4,Se explicó ruta de aprendizaje inicial.
+147,78,2025-08-05 05:08:36,recomendacion,directo,web,478,5,Se sugirió priorizar Inglés B1 antes de ML.
+148,57,2025-09-29 00:52:36,consulta_hito,empatico,web,45,5,Se explicó ruta de aprendizaje inicial.
+149,127,2025-08-20 13:37:02,consulta_hito,directo,web,96,3,Se ajustó orden de hitos por disponibilidad.
+150,115,2025-05-10 01:59:11,motivacion,estrategico,whatsapp,175,2,Se recomendó practicar ejercicios de SQL.
+151,169,2025-07-21 16:47:08,consulta_hito,didactico,email,280,3,Se sugirió priorizar Inglés B1 antes de ML.
+152,13,2025-05-17 20:52:15,seguimiento,directo,movil,40,5,Se sugirió priorizar Inglés B1 antes de ML.
+153,88,2025-05-31 12:34:45,consulta_hito,didactico,email,478,2,Se ajustó orden de hitos por disponibilidad.
+154,111,2025-09-06 16:04:23,recomendacion,didactico,movil,214,4,Se explicó ruta de aprendizaje inicial.
+155,29,2025-07-21 10:14:05,diagnostico,empatico,whatsapp,171,4,Se ajustó orden de hitos por disponibilidad.
+156,17,2025-04-13 18:07:26,recomendacion,estrategico,web,52,1,Se revisó avance del hito Python básico.
+157,124,2025-06-12 09:43:52,consulta_hito,empatico,whatsapp,205,3,Se sugirió priorizar Inglés B1 antes de ML.
+158,170,2025-06-18 21:15:27,diagnostico,didactico,web,323,2,Se ajustó orden de hitos por disponibilidad.
+159,178,2025-05-22 03:17:54,consulta_hito,didactico,web,521,2,Se explicó ruta de aprendizaje inicial.
+160,51,2025-05-21 10:34:12,consulta_hito,didactico,whatsapp,374,2,Se ajustó orden de hitos por disponibilidad.
+161,199,2025-09-02 23:09:28,consulta_hito,empatico,movil,511,2,Se recomendó practicar ejercicios de SQL.
+162,33,2025-08-27 06:30:07,motivacion,estrategico,movil,255,2,Se revisó avance del hito Python básico.
+163,39,2025-09-23 03:10:00,consulta_hito,directo,movil,16,3,Se recomendó practicar ejercicios de SQL.
+164,122,2025-06-29 10:42:18,recomendacion,directo,movil,247,4,Se sugirió priorizar Inglés B1 antes de ML.
+165,23,2025-10-18 05:06:51,recomendacion,empatico,email,421,1,Se explicó ruta de aprendizaje inicial.
+166,142,2025-09-29 12:13:10,diagnostico,directo,email,524,1,Se ajustó orden de hitos por disponibilidad.
+167,41,2025-06-20 20:11:38,seguimiento,empatico,web,29,4,Se explicó ruta de aprendizaje inicial.
+168,40,2025-09-05 03:54:57,diagnostico,estrategico,movil,586,5,Se revisó avance del hito Python básico.
+169,181,2025-05-09 00:28:15,seguimiento,didactico,whatsapp,561,3,Se sugirió priorizar Inglés B1 antes de ML.
+170,123,2025-06-20 23:55:47,recomendacion,didactico,whatsapp,149,2,Se revisó avance del hito Python básico.
+171,56,2025-06-02 12:50:42,consulta_hito,directo,web,123,5,Se recomendó practicar ejercicios de SQL.
+172,65,2025-06-03 00:03:08,recomendacion,directo,movil,197,3,Se sugirió priorizar Inglés B1 antes de ML.
+173,15,2025-08-28 15:06:21,consulta_hito,estrategico,movil,395,1,Se sugirió priorizar Inglés B1 antes de ML.
+174,63,2025-10-07 03:35:31,consulta_hito,empatico,web,559,1,Se recomendó practicar ejercicios de SQL.
+175,102,2025-10-12 04:38:51,recomendacion,empatico,movil,21,4,Se recomendó practicar ejercicios de SQL.
+176,59,2025-07-31 14:44:43,diagnostico,estrategico,movil,28,1,Se revisó avance del hito Python básico.
+177,199,2025-08-31 20:50:20,consulta_hito,didactico,web,535,3,Se sugirió priorizar Inglés B1 antes de ML.
+178,59,2025-10-05 02:32:52,recomendacion,didactico,web,336,3,Se sugirió priorizar Inglés B1 antes de ML.
+179,12,2025-08-22 14:41:02,recomendacion,estrategico,web,193,1,Se recomendó practicar ejercicios de SQL.
+180,23,2025-09-17 11:19:08,recomendacion,empatico,web,594,3,Se recomendó practicar ejercicios de SQL.
+181,110,2025-07-18 16:38:04,diagnostico,empatico,email,231,5,Se recomendó practicar ejercicios de SQL.
+182,116,2025-10-14 02:05:04,recomendacion,directo,web,503,1,Se revisó avance del hito Python básico.
+183,5,2025-07-11 16:52:43,consulta_hito,didactico,movil,30,1,Se ajustó orden de hitos por disponibilidad.
+184,167,2025-10-13 21:13:51,diagnostico,directo,web,168,3,Se explicó ruta de aprendizaje inicial.
+185,52,2025-07-07 19:57:04,seguimiento,didactico,email,559,5,Se sugirió priorizar Inglés B1 antes de ML.
+186,104,2025-04-18 07:38:00,motivacion,didactico,movil,90,2,Se sugirió priorizar Inglés B1 antes de ML.
+187,126,2025-10-09 02:58:51,consulta_hito,empatico,movil,150,4,Se sugirió priorizar Inglés B1 antes de ML.
+188,173,2025-04-15 04:54:23,seguimiento,estrategico,email,572,4,Se recomendó practicar ejercicios de SQL.
+189,61,2025-06-23 23:42:22,motivacion,estrategico,movil,133,5,Se explicó ruta de aprendizaje inicial.
+190,162,2025-08-30 15:36:49,recomendacion,estrategico,movil,46,5,Se ajustó orden de hitos por disponibilidad.
+191,164,2025-08-12 06:11:08,consulta_hito,directo,web,163,1,Se revisó avance del hito Python básico.
+192,31,2025-05-01 02:26:44,recomendacion,empatico,whatsapp,512,4,Se recomendó practicar ejercicios de SQL.
+193,73,2025-09-28 08:04:19,recomendacion,didactico,web,66,1,Se revisó avance del hito Python básico.
+194,108,2025-10-01 12:14:39,seguimiento,estrategico,whatsapp,572,4,Se sugirió priorizar Inglés B1 antes de ML.
+195,103,2025-07-28 20:08:03,motivacion,didactico,email,331,1,Se sugirió priorizar Inglés B1 antes de ML.
+196,52,2025-08-31 23:32:35,recomendacion,didactico,web,278,3,Se explicó ruta de aprendizaje inicial.
+197,6,2025-09-09 03:44:07,consulta_hito,estrategico,whatsapp,240,4,Se revisó avance del hito Python básico.
+198,10,2025-09-01 03:52:05,recomendacion,didactico,movil,490,4,Se explicó ruta de aprendizaje inicial.
+199,29,2025-08-21 06:37:57,consulta_hito,didactico,movil,343,2,Se explicó ruta de aprendizaje inicial.
+200,178,2025-08-26 06:34:27,motivacion,didactico,web,198,3,Se recomendó practicar ejercicios de SQL.
+201,29,2025-06-05 22:21:40,motivacion,directo,email,438,2,Se sugirió priorizar Inglés B1 antes de ML.
+202,77,2025-07-04 09:10:55,diagnostico,estrategico,whatsapp,552,5,Se ajustó orden de hitos por disponibilidad.
+203,146,2025-08-12 11:06:26,motivacion,didactico,whatsapp,303,4,Se sugirió priorizar Inglés B1 antes de ML.
+204,64,2025-07-29 03:31:39,recomendacion,estrategico,whatsapp,241,3,Se recomendó practicar ejercicios de SQL.
+205,19,2025-07-31 19:03:07,motivacion,empatico,email,598,5,Se ajustó orden de hitos por disponibilidad.
+206,63,2025-07-07 08:49:59,recomendacion,estrategico,email,306,2,Se ajustó orden de hitos por disponibilidad.
+207,70,2025-09-10 09:40:17,recomendacion,empatico,movil,164,2,Se explicó ruta de aprendizaje inicial.
+208,152,2025-08-09 15:53:39,motivacion,didactico,movil,503,2,Se ajustó orden de hitos por disponibilidad.
+209,172,2025-07-17 21:53:44,diagnostico,directo,movil,121,1,Se ajustó orden de hitos por disponibilidad.
+210,115,2025-05-24 08:09:17,diagnostico,directo,web,505,1,Se sugirió priorizar Inglés B1 antes de ML.
+211,84,2025-07-30 05:49:33,motivacion,estrategico,movil,308,4,Se recomendó practicar ejercicios de SQL.
+212,87,2025-10-04 18:04:33,motivacion,directo,movil,53,2,Se explicó ruta de aprendizaje inicial.
+213,11,2025-07-30 09:40:19,recomendacion,didactico,whatsapp,405,1,Se revisó avance del hito Python básico.
+214,186,2025-06-29 23:37:42,motivacion,empatico,web,159,3,Se explicó ruta de aprendizaje inicial.
+215,35,2025-05-18 18:57:43,consulta_hito,didactico,whatsapp,417,3,Se ajustó orden de hitos por disponibilidad.
+216,181,2025-09-03 06:59:44,consulta_hito,estrategico,whatsapp,497,1,Se ajustó orden de hitos por disponibilidad.
+217,111,2025-05-04 20:11:14,motivacion,directo,web,282,3,Se ajustó orden de hitos por disponibilidad.
+218,77,2025-06-16 15:59:24,recomendacion,estrategico,email,412,2,Se explicó ruta de aprendizaje inicial.
+219,19,2025-06-29 17:48:52,motivacion,estrategico,web,224,3,Se revisó avance del hito Python básico.
+220,49,2025-09-09 10:09:47,consulta_hito,directo,web,269,2,Se recomendó practicar ejercicios de SQL.
+221,118,2025-07-26 21:38:07,consulta_hito,estrategico,email,227,1,Se explicó ruta de aprendizaje inicial.
+222,78,2025-07-03 07:16:13,seguimiento,didactico,email,568,1,Se explicó ruta de aprendizaje inicial.
+223,142,2025-08-04 01:43:08,consulta_hito,estrategico,email,66,2,Se explicó ruta de aprendizaje inicial.
+224,166,2025-10-10 10:53:02,seguimiento,estrategico,web,491,3,Se revisó avance del hito Python básico.
+225,10,2025-07-30 12:43:06,consulta_hito,estrategico,web,173,2,Se ajustó orden de hitos por disponibilidad.
+226,94,2025-04-22 10:23:42,consulta_hito,directo,whatsapp,447,4,Se recomendó practicar ejercicios de SQL.
+227,47,2025-09-25 08:52:12,recomendacion,directo,movil,220,2,Se ajustó orden de hitos por disponibilidad.
+228,40,2025-07-03 23:53:01,diagnostico,directo,web,152,3,Se sugirió priorizar Inglés B1 antes de ML.
+229,147,2025-05-16 01:47:44,consulta_hito,directo,web,250,1,Se revisó avance del hito Python básico.
+230,51,2025-07-11 17:02:45,seguimiento,didactico,email,84,1,Se sugirió priorizar Inglés B1 antes de ML.
+231,117,2025-08-24 00:52:18,diagnostico,didactico,email,160,4,Se ajustó orden de hitos por disponibilidad.
+232,157,2025-08-17 02:42:56,recomendacion,directo,web,192,3,Se recomendó practicar ejercicios de SQL.
+233,54,2025-04-25 23:23:04,diagnostico,directo,movil,584,3,Se sugirió priorizar Inglés B1 antes de ML.
+234,44,2025-07-04 11:12:19,diagnostico,directo,whatsapp,149,1,Se revisó avance del hito Python básico.
+235,139,2025-07-28 03:55:40,seguimiento,empatico,web,108,4,Se revisó avance del hito Python básico.
+236,42,2025-05-25 15:02:36,recomendacion,empatico,whatsapp,74,4,Se sugirió priorizar Inglés B1 antes de ML.
+237,67,2025-09-30 20:25:28,diagnostico,didactico,email,343,3,Se sugirió priorizar Inglés B1 antes de ML.
+238,28,2025-06-14 05:29:41,recomendacion,empatico,email,383,5,Se revisó avance del hito Python básico.
+239,138,2025-09-22 08:38:24,consulta_hito,didactico,movil,362,5,Se explicó ruta de aprendizaje inicial.
+240,47,2025-06-03 14:48:30,recomendacion,empatico,whatsapp,409,4,Se ajustó orden de hitos por disponibilidad.
+241,73,2025-07-12 03:08:44,motivacion,directo,movil,512,2,Se revisó avance del hito Python básico.
+242,116,2025-05-03 20:12:46,consulta_hito,empatico,movil,101,1,Se explicó ruta de aprendizaje inicial.
+243,31,2025-09-29 00:48:02,motivacion,empatico,movil,369,5,Se sugirió priorizar Inglés B1 antes de ML.
+244,191,2025-04-23 14:57:45,diagnostico,didactico,web,511,3,Se explicó ruta de aprendizaje inicial.
+245,162,2025-06-30 19:06:05,motivacion,directo,whatsapp,121,5,Se ajustó orden de hitos por disponibilidad.
+246,159,2025-07-11 00:05:05,recomendacion,directo,whatsapp,127,4,Se explicó ruta de aprendizaje inicial.
+247,45,2025-06-11 08:45:56,consulta_hito,didactico,email,275,2,Se revisó avance del hito Python básico.
+248,143,2025-09-27 16:18:28,consulta_hito,directo,web,384,3,Se revisó avance del hito Python básico.
+249,37,2025-05-18 02:04:27,seguimiento,directo,email,343,3,Se ajustó orden de hitos por disponibilidad.
+250,166,2025-08-30 18:07:11,consulta_hito,directo,web,567,2,Se revisó avance del hito Python básico.
+251,75,2025-07-27 13:13:29,recomendacion,didactico,web,327,5,Se ajustó orden de hitos por disponibilidad.
+252,128,2025-10-18 17:13:07,motivacion,estrategico,web,292,4,Se explicó ruta de aprendizaje inicial.
+253,43,2025-04-08 05:11:26,recomendacion,didactico,whatsapp,88,5,Se recomendó practicar ejercicios de SQL.
+254,49,2025-09-25 06:26:27,seguimiento,estrategico,movil,421,4,Se revisó avance del hito Python básico.
+255,41,2025-08-05 03:15:22,seguimiento,directo,whatsapp,204,4,Se sugirió priorizar Inglés B1 antes de ML.
+256,122,2025-08-06 01:23:12,consulta_hito,directo,whatsapp,595,2,Se explicó ruta de aprendizaje inicial.
+257,108,2025-05-05 11:46:20,seguimiento,estrategico,web,160,5,Se revisó avance del hito Python básico.
+258,8,2025-08-25 11:13:18,motivacion,directo,movil,307,1,Se explicó ruta de aprendizaje inicial.
+259,83,2025-09-10 15:12:58,consulta_hito,empatico,movil,340,3,Se ajustó orden de hitos por disponibilidad.
+260,103,2025-07-03 12:52:08,seguimiento,directo,email,172,4,Se revisó avance del hito Python básico.
+261,160,2025-07-28 10:01:20,consulta_hito,empatico,email,401,1,Se recomendó practicar ejercicios de SQL.
+262,170,2025-07-13 20:57:45,motivacion,empatico,whatsapp,114,2,Se revisó avance del hito Python básico.
+263,186,2025-05-15 17:59:06,consulta_hito,empatico,web,294,5,Se ajustó orden de hitos por disponibilidad.
+264,58,2025-06-04 04:37:21,diagnostico,empatico,movil,170,1,Se revisó avance del hito Python básico.
+265,20,2025-08-26 17:18:23,recomendacion,empatico,whatsapp,566,2,Se sugirió priorizar Inglés B1 antes de ML.
+266,140,2025-09-13 05:08:22,motivacion,didactico,email,320,1,Se explicó ruta de aprendizaje inicial.
+267,196,2025-05-16 19:46:01,motivacion,estrategico,whatsapp,584,5,Se explicó ruta de aprendizaje inicial.
+268,100,2025-08-02 07:52:53,recomendacion,directo,web,58,4,Se revisó avance del hito Python básico.
+269,146,2025-10-16 08:22:37,seguimiento,didactico,email,265,3,Se ajustó orden de hitos por disponibilidad.
+270,84,2025-09-01 18:44:33,seguimiento,estrategico,email,333,1,Se ajustó orden de hitos por disponibilidad.
+271,112,2025-05-24 10:08:04,consulta_hito,estrategico,movil,129,5,Se revisó avance del hito Python básico.
+272,184,2025-09-20 13:52:52,consulta_hito,directo,web,212,2,Se explicó ruta de aprendizaje inicial.
+273,79,2025-04-29 01:08:47,diagnostico,estrategico,movil,274,5,Se revisó avance del hito Python básico.
+274,29,2025-07-22 11:50:25,seguimiento,empatico,web,497,5,Se sugirió priorizar Inglés B1 antes de ML.
+275,40,2025-09-08 23:29:47,motivacion,estrategico,web,179,5,Se revisó avance del hito Python básico.
+276,29,2025-04-11 22:27:50,diagnostico,directo,email,447,4,Se explicó ruta de aprendizaje inicial.
+277,189,2025-06-08 11:41:11,diagnostico,empatico,web,371,2,Se revisó avance del hito Python básico.
+278,139,2025-08-12 22:51:50,consulta_hito,didactico,movil,113,1,Se recomendó practicar ejercicios de SQL.
+279,162,2025-04-22 05:33:47,recomendacion,directo,whatsapp,265,5,Se revisó avance del hito Python básico.
+280,141,2025-04-04 22:46:19,recomendacion,directo,email,190,5,Se ajustó orden de hitos por disponibilidad.
+281,16,2025-04-27 08:51:26,seguimiento,didactico,email,182,4,Se sugirió priorizar Inglés B1 antes de ML.
+282,63,2025-07-01 10:02:37,consulta_hito,directo,email,223,2,Se sugirió priorizar Inglés B1 antes de ML.
+283,105,2025-05-06 13:23:21,motivacion,estrategico,web,570,4,Se revisó avance del hito Python básico.
+284,102,2025-09-27 20:42:36,diagnostico,directo,email,580,3,Se explicó ruta de aprendizaje inicial.
+285,1,2025-05-03 02:17:03,consulta_hito,directo,movil,220,2,Se ajustó orden de hitos por disponibilidad.
+286,40,2025-05-12 17:05:57,motivacion,directo,whatsapp,206,4,Se ajustó orden de hitos por disponibilidad.
+287,187,2025-04-28 18:57:55,motivacion,didactico,whatsapp,35,4,Se sugirió priorizar Inglés B1 antes de ML.
+288,127,2025-08-31 23:24:40,diagnostico,empatico,email,394,5,Se revisó avance del hito Python básico.
+289,2,2025-05-13 05:13:58,recomendacion,directo,web,145,4,Se ajustó orden de hitos por disponibilidad.
+290,114,2025-09-10 08:07:17,diagnostico,didactico,web,375,5,Se sugirió priorizar Inglés B1 antes de ML.
+291,149,2025-07-09 02:41:57,motivacion,estrategico,whatsapp,524,2,Se explicó ruta de aprendizaje inicial.
+292,184,2025-06-01 17:21:20,seguimiento,didactico,whatsapp,423,5,Se sugirió priorizar Inglés B1 antes de ML.
+293,196,2025-06-09 13:04:14,motivacion,estrategico,web,156,3,Se sugirió priorizar Inglés B1 antes de ML.
+294,53,2025-08-01 20:10:29,motivacion,directo,whatsapp,348,2,Se ajustó orden de hitos por disponibilidad.
+295,70,2025-09-20 04:54:06,diagnostico,didactico,whatsapp,154,5,Se ajustó orden de hitos por disponibilidad.
+296,6,2025-09-24 01:08:37,recomendacion,didactico,movil,436,4,Se ajustó orden de hitos por disponibilidad.
+297,78,2025-04-28 15:30:08,seguimiento,didactico,email,37,5,Se explicó ruta de aprendizaje inicial.
+298,142,2025-09-28 19:09:32,recomendacion,didactico,whatsapp,587,3,Se ajustó orden de hitos por disponibilidad.
+299,147,2025-07-23 14:08:40,seguimiento,estrategico,web,536,2,Se ajustó orden de hitos por disponibilidad.
+300,130,2025-07-30 14:18:40,diagnostico,didactico,email,263,3,Se sugirió priorizar Inglés B1 antes de ML.
+301,133,2025-08-15 13:19:56,consulta_hito,didactico,web,404,3,Se ajustó orden de hitos por disponibilidad.
+302,137,2025-04-15 01:30:50,recomendacion,estrategico,whatsapp,25,5,Se revisó avance del hito Python básico.
+303,170,2025-10-21 02:57:40,seguimiento,empatico,whatsapp,190,1,Se explicó ruta de aprendizaje inicial.
+304,42,2025-09-05 22:59:04,consulta_hito,didactico,web,421,4,Se recomendó practicar ejercicios de SQL.
+305,142,2025-04-27 23:26:48,diagnostico,directo,whatsapp,562,3,Se recomendó practicar ejercicios de SQL.
+306,134,2025-05-14 17:48:09,consulta_hito,empatico,movil,57,3,Se sugirió priorizar Inglés B1 antes de ML.
+307,79,2025-07-05 05:35:55,motivacion,didactico,whatsapp,123,5,Se recomendó practicar ejercicios de SQL.
+308,107,2025-07-05 01:52:54,diagnostico,directo,email,394,1,Se explicó ruta de aprendizaje inicial.
+309,1,2025-06-25 20:54:14,diagnostico,estrategico,email,427,1,Se ajustó orden de hitos por disponibilidad.
+310,200,2025-08-20 10:06:16,consulta_hito,empatico,whatsapp,411,3,Se explicó ruta de aprendizaje inicial.
+311,143,2025-07-14 14:12:31,motivacion,directo,email,569,3,Se sugirió priorizar Inglés B1 antes de ML.
+312,115,2025-04-24 07:38:37,motivacion,didactico,web,136,5,Se sugirió priorizar Inglés B1 antes de ML.
+313,42,2025-09-12 03:52:16,diagnostico,empatico,web,223,4,Se recomendó practicar ejercicios de SQL.
+314,177,2025-05-21 22:14:26,diagnostico,directo,whatsapp,317,3,Se recomendó practicar ejercicios de SQL.
+315,34,2025-04-21 00:13:38,seguimiento,didactico,whatsapp,366,4,Se ajustó orden de hitos por disponibilidad.
+316,103,2025-08-27 12:59:32,consulta_hito,estrategico,web,401,2,Se revisó avance del hito Python básico.
+317,30,2025-08-07 21:11:55,recomendacion,didactico,email,155,3,Se sugirió priorizar Inglés B1 antes de ML.
+318,197,2025-06-12 10:28:04,consulta_hito,directo,web,23,3,Se revisó avance del hito Python básico.
+319,56,2025-07-27 17:34:58,seguimiento,empatico,whatsapp,525,3,Se sugirió priorizar Inglés B1 antes de ML.
+320,100,2025-07-31 02:28:29,motivacion,estrategico,whatsapp,396,5,Se revisó avance del hito Python básico.
+321,154,2025-09-20 22:46:46,recomendacion,directo,web,252,5,Se revisó avance del hito Python básico.
+322,81,2025-04-06 13:52:41,seguimiento,empatico,movil,309,3,Se recomendó practicar ejercicios de SQL.
+323,56,2025-05-13 16:11:46,consulta_hito,empatico,web,270,4,Se revisó avance del hito Python básico.
+324,169,2025-06-14 23:44:46,diagnostico,empatico,email,257,2,Se sugirió priorizar Inglés B1 antes de ML.
+325,127,2025-06-04 04:47:59,seguimiento,estrategico,movil,369,5,Se recomendó practicar ejercicios de SQL.
+326,183,2025-08-06 23:01:50,motivacion,estrategico,movil,200,5,Se recomendó practicar ejercicios de SQL.
+327,44,2025-08-16 16:28:49,consulta_hito,estrategico,web,430,1,Se ajustó orden de hitos por disponibilidad.
+328,84,2025-10-11 05:08:01,recomendacion,empatico,email,83,1,Se recomendó practicar ejercicios de SQL.
+329,14,2025-04-22 12:33:25,recomendacion,estrategico,web,279,4,Se sugirió priorizar Inglés B1 antes de ML.
+330,79,2025-07-17 18:30:20,seguimiento,directo,whatsapp,234,3,Se revisó avance del hito Python básico.
+331,77,2025-09-21 10:46:31,motivacion,estrategico,web,487,1,Se recomendó practicar ejercicios de SQL.
+332,149,2025-07-29 19:46:30,motivacion,didactico,movil,281,3,Se ajustó orden de hitos por disponibilidad.
+333,53,2025-04-18 10:32:07,recomendacion,directo,email,537,5,Se explicó ruta de aprendizaje inicial.
+334,57,2025-06-19 00:41:20,diagnostico,directo,email,100,1,Se revisó avance del hito Python básico.
+335,62,2025-06-13 23:22:19,seguimiento,empatico,email,533,5,Se revisó avance del hito Python básico.
+336,143,2025-04-30 17:43:27,recomendacion,directo,email,571,4,Se revisó avance del hito Python básico.
+337,3,2025-07-23 23:35:57,motivacion,didactico,movil,338,1,Se recomendó practicar ejercicios de SQL.
+338,47,2025-05-21 16:11:59,seguimiento,estrategico,email,349,2,Se recomendó practicar ejercicios de SQL.
+339,187,2025-07-01 03:24:19,seguimiento,empatico,web,539,5,Se explicó ruta de aprendizaje inicial.
+340,92,2025-09-16 04:54:11,seguimiento,directo,whatsapp,300,4,Se sugirió priorizar Inglés B1 antes de ML.
+341,23,2025-10-07 07:20:32,seguimiento,didactico,movil,422,5,Se explicó ruta de aprendizaje inicial.
+342,80,2025-06-30 09:18:06,consulta_hito,didactico,movil,278,4,Se sugirió priorizar Inglés B1 antes de ML.
+343,68,2025-08-14 19:33:07,diagnostico,empatico,web,129,1,Se ajustó orden de hitos por disponibilidad.
+344,153,2025-08-14 08:38:24,seguimiento,directo,web,559,2,Se recomendó practicar ejercicios de SQL.
+345,42,2025-05-11 04:17:07,diagnostico,didactico,whatsapp,309,2,Se recomendó practicar ejercicios de SQL.
+346,100,2025-07-20 18:11:05,motivacion,estrategico,email,394,4,Se revisó avance del hito Python básico.
+347,144,2025-08-26 06:19:38,seguimiento,estrategico,whatsapp,547,2,Se ajustó orden de hitos por disponibilidad.
+348,190,2025-05-17 09:03:50,motivacion,empatico,movil,161,1,Se sugirió priorizar Inglés B1 antes de ML.
+349,191,2025-09-30 22:12:11,motivacion,empatico,movil,321,5,Se ajustó orden de hitos por disponibilidad.
+350,49,2025-09-26 16:32:14,diagnostico,didactico,web,351,5,Se ajustó orden de hitos por disponibilidad.
+351,77,2025-07-15 05:25:42,recomendacion,empatico,whatsapp,226,4,Se sugirió priorizar Inglés B1 antes de ML.
+352,195,2025-06-05 07:06:44,motivacion,didactico,web,99,2,Se revisó avance del hito Python básico.
+353,164,2025-04-15 17:38:37,consulta_hito,estrategico,email,564,1,Se explicó ruta de aprendizaje inicial.
+354,148,2025-07-08 15:37:30,motivacion,didactico,web,296,3,Se ajustó orden de hitos por disponibilidad.
+355,3,2025-04-13 00:12:11,motivacion,directo,web,470,4,Se ajustó orden de hitos por disponibilidad.
+356,13,2025-08-26 01:23:57,recomendacion,directo,email,448,5,Se revisó avance del hito Python básico.
+357,57,2025-08-27 07:48:22,diagnostico,estrategico,web,490,1,Se recomendó practicar ejercicios de SQL.
+358,50,2025-05-23 08:21:58,seguimiento,empatico,web,139,5,Se revisó avance del hito Python básico.
+359,150,2025-05-05 04:56:19,diagnostico,directo,movil,500,3,Se revisó avance del hito Python básico.
+360,166,2025-08-04 14:21:46,recomendacion,empatico,movil,451,1,Se ajustó orden de hitos por disponibilidad.
+361,16,2025-08-09 14:58:53,motivacion,empatico,web,58,3,Se recomendó practicar ejercicios de SQL.
+362,16,2025-05-26 21:06:51,recomendacion,directo,email,226,4,Se explicó ruta de aprendizaje inicial.
+363,88,2025-10-13 21:46:48,consulta_hito,didactico,email,158,4,Se explicó ruta de aprendizaje inicial.
+364,56,2025-08-17 14:53:01,motivacion,didactico,movil,229,3,Se revisó avance del hito Python básico.
+365,159,2025-04-27 15:29:49,diagnostico,estrategico,whatsapp,455,1,Se recomendó practicar ejercicios de SQL.
+366,163,2025-07-26 13:39:14,seguimiento,directo,web,357,4,Se sugirió priorizar Inglés B1 antes de ML.
+367,62,2025-10-10 11:19:48,motivacion,directo,whatsapp,370,1,Se explicó ruta de aprendizaje inicial.
+368,98,2025-07-25 21:36:32,consulta_hito,didactico,web,152,5,Se revisó avance del hito Python básico.
+369,121,2025-10-10 00:17:27,consulta_hito,didactico,web,177,5,Se ajustó orden de hitos por disponibilidad.
+370,108,2025-08-29 02:08:09,seguimiento,empatico,whatsapp,270,3,Se revisó avance del hito Python básico.
+371,134,2025-05-06 03:10:59,seguimiento,estrategico,whatsapp,85,4,Se explicó ruta de aprendizaje inicial.
+372,9,2025-05-14 22:10:07,motivacion,didactico,whatsapp,224,3,Se ajustó orden de hitos por disponibilidad.
+373,163,2025-07-29 13:33:24,seguimiento,estrategico,web,397,1,Se explicó ruta de aprendizaje inicial.
+374,49,2025-04-04 16:21:14,consulta_hito,didactico,movil,23,3,Se revisó avance del hito Python básico.
+375,125,2025-09-14 04:49:59,consulta_hito,didactico,movil,536,1,Se recomendó practicar ejercicios de SQL.
+376,163,2025-07-13 20:32:06,recomendacion,didactico,web,556,5,Se revisó avance del hito Python básico.
+377,152,2025-08-05 07:30:26,consulta_hito,empatico,email,60,4,Se sugirió priorizar Inglés B1 antes de ML.
+378,103,2025-07-14 05:31:35,motivacion,empatico,movil,192,5,Se ajustó orden de hitos por disponibilidad.
+379,196,2025-07-21 06:09:18,motivacion,didactico,whatsapp,342,3,Se explicó ruta de aprendizaje inicial.
+380,181,2025-07-05 07:10:02,recomendacion,didactico,movil,517,1,Se sugirió priorizar Inglés B1 antes de ML.
+381,69,2025-06-19 12:54:06,diagnostico,didactico,web,123,4,Se recomendó practicar ejercicios de SQL.
+382,199,2025-04-17 20:15:13,consulta_hito,estrategico,movil,530,5,Se explicó ruta de aprendizaje inicial.
+383,130,2025-10-12 19:56:46,consulta_hito,didactico,email,382,5,Se revisó avance del hito Python básico.
+384,188,2025-07-04 02:20:16,consulta_hito,didactico,whatsapp,501,4,Se explicó ruta de aprendizaje inicial.
+385,65,2025-05-10 19:50:08,consulta_hito,empatico,web,130,3,Se revisó avance del hito Python básico.
+386,132,2025-09-13 23:32:44,diagnostico,directo,movil,420,2,Se recomendó practicar ejercicios de SQL.
+387,68,2025-06-08 00:11:47,diagnostico,estrategico,web,189,2,Se explicó ruta de aprendizaje inicial.
+388,157,2025-04-17 17:47:15,recomendacion,didactico,email,152,1,Se recomendó practicar ejercicios de SQL.
+389,195,2025-07-21 18:04:29,diagnostico,empatico,web,521,5,Se recomendó practicar ejercicios de SQL.
+390,26,2025-06-26 17:45:29,consulta_hito,estrategico,whatsapp,260,5,Se explicó ruta de aprendizaje inicial.
+391,16,2025-10-08 16:14:52,motivacion,estrategico,web,162,2,Se recomendó practicar ejercicios de SQL.
+392,140,2025-10-02 00:49:00,diagnostico,didactico,movil,414,3,Se ajustó orden de hitos por disponibilidad.
+393,105,2025-06-22 16:46:22,consulta_hito,directo,whatsapp,95,4,Se recomendó practicar ejercicios de SQL.
+394,37,2025-06-15 06:09:08,recomendacion,empatico,whatsapp,234,2,Se sugirió priorizar Inglés B1 antes de ML.
+395,26,2025-05-16 02:29:46,motivacion,empatico,web,212,3,Se sugirió priorizar Inglés B1 antes de ML.
+396,135,2025-09-18 19:57:39,diagnostico,didactico,movil,66,4,Se explicó ruta de aprendizaje inicial.
+397,39,2025-09-06 07:13:50,seguimiento,directo,web,170,1,Se explicó ruta de aprendizaje inicial.
+398,153,2025-08-12 09:26:52,consulta_hito,didactico,email,153,1,Se ajustó orden de hitos por disponibilidad.
+399,93,2025-06-19 13:20:52,seguimiento,empatico,web,362,4,Se sugirió priorizar Inglés B1 antes de ML.
+400,155,2025-08-03 18:13:27,diagnostico,empatico,web,521,2,Se revisó avance del hito Python básico.
+401,86,2025-04-08 23:49:50,diagnostico,didactico,movil,487,1,Se revisó avance del hito Python básico.
+402,193,2025-04-17 15:31:24,seguimiento,directo,movil,110,1,Se revisó avance del hito Python básico.
+403,139,2025-08-30 01:06:21,motivacion,empatico,email,92,4,Se sugirió priorizar Inglés B1 antes de ML.
+404,37,2025-06-15 07:13:50,diagnostico,empatico,whatsapp,338,3,Se sugirió priorizar Inglés B1 antes de ML.
+405,29,2025-10-13 19:48:35,diagnostico,directo,web,500,1,Se sugirió priorizar Inglés B1 antes de ML.
+406,66,2025-08-01 04:45:08,consulta_hito,didactico,web,163,2,Se recomendó practicar ejercicios de SQL.
+407,76,2025-05-25 08:54:33,consulta_hito,estrategico,movil,110,4,Se explicó ruta de aprendizaje inicial.
+408,37,2025-08-15 03:37:31,consulta_hito,directo,whatsapp,99,2,Se explicó ruta de aprendizaje inicial.
+409,150,2025-07-18 16:25:46,recomendacion,didactico,email,199,4,Se ajustó orden de hitos por disponibilidad.
+410,6,2025-06-24 01:56:10,consulta_hito,didactico,whatsapp,338,1,Se revisó avance del hito Python básico.
+411,34,2025-10-03 20:42:17,seguimiento,empatico,email,322,5,Se explicó ruta de aprendizaje inicial.
+412,174,2025-05-26 05:20:21,recomendacion,estrategico,whatsapp,568,3,Se explicó ruta de aprendizaje inicial.
+413,98,2025-04-18 14:20:29,consulta_hito,empatico,web,128,3,Se ajustó orden de hitos por disponibilidad.
+414,149,2025-05-09 12:23:05,consulta_hito,didactico,email,307,5,Se ajustó orden de hitos por disponibilidad.
+415,106,2025-07-12 08:31:18,seguimiento,didactico,email,144,2,Se sugirió priorizar Inglés B1 antes de ML.
+416,98,2025-04-27 00:53:55,diagnostico,estrategico,whatsapp,482,3,Se explicó ruta de aprendizaje inicial.
+417,131,2025-07-02 19:26:18,seguimiento,empatico,web,600,1,Se sugirió priorizar Inglés B1 antes de ML.
+418,75,2025-05-24 22:30:55,diagnostico,didactico,whatsapp,59,1,Se sugirió priorizar Inglés B1 antes de ML.
+419,147,2025-06-21 12:00:30,seguimiento,directo,movil,348,2,Se recomendó practicar ejercicios de SQL.
+420,139,2025-07-17 16:21:59,motivacion,didactico,whatsapp,474,1,Se ajustó orden de hitos por disponibilidad.
+421,41,2025-05-19 17:58:50,consulta_hito,didactico,whatsapp,295,4,Se revisó avance del hito Python básico.
+422,38,2025-04-07 23:38:06,consulta_hito,empatico,movil,219,4,Se revisó avance del hito Python básico.
+423,4,2025-08-21 17:41:20,recomendacion,empatico,movil,238,1,Se explicó ruta de aprendizaje inicial.
+424,6,2025-04-11 06:21:05,motivacion,didactico,movil,313,4,Se sugirió priorizar Inglés B1 antes de ML.
+425,62,2025-05-17 09:41:52,motivacion,empatico,web,543,5,Se ajustó orden de hitos por disponibilidad.
+426,197,2025-05-09 03:38:48,diagnostico,estrategico,web,430,1,Se explicó ruta de aprendizaje inicial.
+427,149,2025-05-10 01:40:50,seguimiento,directo,movil,157,4,Se revisó avance del hito Python básico.
+428,117,2025-09-29 18:53:49,motivacion,empatico,email,24,5,Se recomendó practicar ejercicios de SQL.
+429,77,2025-05-06 03:07:27,motivacion,didactico,email,279,4,Se revisó avance del hito Python básico.
+430,11,2025-04-23 21:09:58,diagnostico,estrategico,movil,270,4,Se explicó ruta de aprendizaje inicial.
+431,25,2025-07-08 02:10:26,seguimiento,empatico,web,550,1,Se recomendó practicar ejercicios de SQL.
+432,24,2025-08-25 15:49:53,recomendacion,estrategico,movil,331,2,Se explicó ruta de aprendizaje inicial.
+433,49,2025-07-14 02:13:53,diagnostico,empatico,whatsapp,223,3,Se revisó avance del hito Python básico.
+434,72,2025-09-11 13:12:54,seguimiento,empatico,email,344,4,Se ajustó orden de hitos por disponibilidad.
+435,156,2025-07-10 10:41:51,recomendacion,estrategico,email,457,4,Se revisó avance del hito Python básico.
+436,184,2025-04-25 01:11:13,diagnostico,empatico,movil,288,1,Se revisó avance del hito Python básico.
+437,181,2025-05-09 18:45:15,motivacion,directo,movil,242,5,Se sugirió priorizar Inglés B1 antes de ML.
+438,153,2025-07-25 10:30:16,diagnostico,directo,email,159,1,Se ajustó orden de hitos por disponibilidad.
+439,89,2025-10-15 16:43:39,diagnostico,didactico,whatsapp,347,2,Se sugirió priorizar Inglés B1 antes de ML.
+440,59,2025-08-21 10:31:30,consulta_hito,didactico,whatsapp,178,2,Se recomendó practicar ejercicios de SQL.
+441,117,2025-04-10 23:06:38,diagnostico,estrategico,web,178,5,Se explicó ruta de aprendizaje inicial.
+442,198,2025-05-28 09:05:38,motivacion,estrategico,web,577,1,Se sugirió priorizar Inglés B1 antes de ML.
+443,18,2025-06-11 19:49:29,recomendacion,estrategico,web,308,4,Se explicó ruta de aprendizaje inicial.
+444,9,2025-04-27 19:57:28,seguimiento,directo,movil,71,3,Se sugirió priorizar Inglés B1 antes de ML.
+445,105,2025-04-13 08:17:27,diagnostico,empatico,movil,590,2,Se ajustó orden de hitos por disponibilidad.
+446,37,2025-09-29 04:27:03,diagnostico,empatico,web,194,2,Se revisó avance del hito Python básico.
+447,146,2025-09-17 02:53:57,diagnostico,estrategico,web,143,1,Se recomendó practicar ejercicios de SQL.
+448,137,2025-08-27 13:19:41,diagnostico,didactico,email,460,3,Se revisó avance del hito Python básico.
+449,198,2025-07-13 14:48:35,recomendacion,didactico,web,327,2,Se revisó avance del hito Python básico.
+450,113,2025-09-13 21:58:06,consulta_hito,estrategico,email,40,1,Se ajustó orden de hitos por disponibilidad.
+451,23,2025-08-11 11:46:43,consulta_hito,empatico,whatsapp,526,2,Se recomendó practicar ejercicios de SQL.
+452,126,2025-06-01 00:48:57,recomendacion,directo,whatsapp,586,4,Se explicó ruta de aprendizaje inicial.
+453,126,2025-09-10 08:52:27,motivacion,directo,movil,340,1,Se revisó avance del hito Python básico.
+454,118,2025-06-14 09:11:14,seguimiento,didactico,web,536,4,Se sugirió priorizar Inglés B1 antes de ML.
+455,181,2025-09-01 16:02:24,recomendacion,didactico,movil,148,3,Se explicó ruta de aprendizaje inicial.
+456,160,2025-09-22 20:02:40,seguimiento,didactico,whatsapp,315,4,Se sugirió priorizar Inglés B1 antes de ML.
+457,21,2025-06-05 04:56:50,motivacion,empatico,movil,385,1,Se explicó ruta de aprendizaje inicial.
+458,106,2025-05-16 11:32:40,motivacion,estrategico,email,323,2,Se revisó avance del hito Python básico.
+459,61,2025-08-03 20:15:40,recomendacion,directo,whatsapp,69,3,Se sugirió priorizar Inglés B1 antes de ML.
+460,190,2025-08-29 03:56:18,motivacion,directo,web,169,1,Se recomendó practicar ejercicios de SQL.
+461,164,2025-09-19 07:10:08,recomendacion,estrategico,movil,380,3,Se ajustó orden de hitos por disponibilidad.
+462,45,2025-04-10 21:12:01,seguimiento,estrategico,whatsapp,105,1,Se explicó ruta de aprendizaje inicial.
+463,172,2025-10-12 16:35:25,consulta_hito,empatico,movil,489,2,Se explicó ruta de aprendizaje inicial.
+464,172,2025-09-17 19:51:05,consulta_hito,estrategico,movil,360,5,Se recomendó practicar ejercicios de SQL.
+465,129,2025-10-16 10:22:21,consulta_hito,empatico,whatsapp,444,5,Se explicó ruta de aprendizaje inicial.
+466,104,2025-09-08 13:14:49,recomendacion,empatico,whatsapp,115,1,Se explicó ruta de aprendizaje inicial.
+467,47,2025-05-09 14:08:55,consulta_hito,estrategico,whatsapp,215,3,Se explicó ruta de aprendizaje inicial.
+468,186,2025-06-15 15:09:19,consulta_hito,empatico,web,426,1,Se recomendó practicar ejercicios de SQL.
+469,157,2025-09-15 19:50:42,diagnostico,directo,email,160,1,Se ajustó orden de hitos por disponibilidad.
+470,99,2025-04-24 17:45:26,diagnostico,directo,movil,78,2,Se explicó ruta de aprendizaje inicial.
+471,153,2025-09-24 16:42:33,motivacion,empatico,web,106,3,Se explicó ruta de aprendizaje inicial.
+472,4,2025-06-24 16:57:56,recomendacion,didactico,web,261,1,Se sugirió priorizar Inglés B1 antes de ML.
+473,192,2025-05-12 14:47:18,motivacion,didactico,email,61,1,Se sugirió priorizar Inglés B1 antes de ML.
+474,40,2025-08-19 23:44:09,motivacion,empatico,whatsapp,115,5,Se recomendó practicar ejercicios de SQL.
+475,163,2025-10-02 10:32:25,motivacion,estrategico,whatsapp,24,1,Se explicó ruta de aprendizaje inicial.
+476,53,2025-09-21 03:13:02,recomendacion,directo,whatsapp,557,2,Se explicó ruta de aprendizaje inicial.
+477,6,2025-10-04 17:25:44,consulta_hito,didactico,web,497,2,Se sugirió priorizar Inglés B1 antes de ML.
+478,154,2025-04-26 01:08:14,consulta_hito,didactico,web,440,1,Se sugirió priorizar Inglés B1 antes de ML.
+479,8,2025-10-20 01:00:46,diagnostico,didactico,movil,147,2,Se ajustó orden de hitos por disponibilidad.
+480,195,2025-08-31 09:56:18,recomendacion,didactico,email,138,5,Se revisó avance del hito Python básico.
+481,125,2025-08-13 19:15:09,consulta_hito,empatico,email,444,5,Se explicó ruta de aprendizaje inicial.
+482,2,2025-06-13 21:53:36,recomendacion,empatico,whatsapp,375,4,Se ajustó orden de hitos por disponibilidad.
+483,9,2025-04-09 22:15:29,consulta_hito,estrategico,whatsapp,213,2,Se revisó avance del hito Python básico.
+484,102,2025-06-15 12:41:02,consulta_hito,empatico,email,53,4,Se ajustó orden de hitos por disponibilidad.
+485,172,2025-08-30 17:26:07,motivacion,estrategico,email,280,4,Se sugirió priorizar Inglés B1 antes de ML.
+486,6,2025-09-02 06:05:01,seguimiento,estrategico,web,462,5,Se explicó ruta de aprendizaje inicial.
+487,63,2025-08-23 19:59:50,consulta_hito,empatico,whatsapp,71,1,Se sugirió priorizar Inglés B1 antes de ML.
+488,77,2025-05-30 14:14:39,seguimiento,empatico,web,506,1,Se revisó avance del hito Python básico.
+489,51,2025-08-23 13:29:14,diagnostico,estrategico,movil,303,2,Se explicó ruta de aprendizaje inicial.
+490,159,2025-06-29 11:22:29,motivacion,directo,whatsapp,569,3,Se ajustó orden de hitos por disponibilidad.
+491,17,2025-06-28 19:09:00,diagnostico,empatico,whatsapp,124,4,Se ajustó orden de hitos por disponibilidad.
+492,20,2025-04-10 05:09:13,recomendacion,directo,web,165,1,Se recomendó practicar ejercicios de SQL.
+493,19,2025-08-28 15:23:10,seguimiento,estrategico,email,312,4,Se revisó avance del hito Python básico.
+494,60,2025-08-10 08:44:06,consulta_hito,estrategico,web,110,1,Se recomendó practicar ejercicios de SQL.
+495,5,2025-05-20 05:22:53,recomendacion,didactico,email,280,2,Se sugirió priorizar Inglés B1 antes de ML.
+496,130,2025-09-16 01:27:33,diagnostico,estrategico,email,267,5,Se recomendó practicar ejercicios de SQL.
+497,83,2025-05-17 09:06:45,consulta_hito,empatico,email,519,3,Se explicó ruta de aprendizaje inicial.
+498,35,2025-07-04 03:57:27,motivacion,estrategico,email,533,1,Se recomendó practicar ejercicios de SQL.
+499,93,2025-07-14 00:34:58,consulta_hito,didactico,web,487,2,Se revisó avance del hito Python básico.
+500,188,2025-08-31 02:03:48,diagnostico,directo,whatsapp,314,4,Se recomendó practicar ejercicios de SQL.
+501,198,2025-07-22 00:27:38,seguimiento,didactico,email,159,1,Se recomendó practicar ejercicios de SQL.
+502,17,2025-09-22 16:26:19,diagnostico,empatico,email,223,1,Se ajustó orden de hitos por disponibilidad.
+503,119,2025-05-21 18:46:17,recomendacion,didactico,whatsapp,507,5,Se revisó avance del hito Python básico.
+504,124,2025-04-27 23:23:56,consulta_hito,empatico,email,340,3,Se revisó avance del hito Python básico.
+505,136,2025-04-10 09:35:07,consulta_hito,didactico,whatsapp,89,3,Se ajustó orden de hitos por disponibilidad.
+506,84,2025-09-29 11:19:30,consulta_hito,didactico,web,180,5,Se revisó avance del hito Python básico.
+507,86,2025-07-14 00:14:10,seguimiento,didactico,movil,476,2,Se ajustó orden de hitos por disponibilidad.
+508,133,2025-07-29 19:33:42,diagnostico,didactico,email,453,3,Se revisó avance del hito Python básico.
+509,3,2025-09-24 03:38:21,seguimiento,directo,movil,504,1,Se revisó avance del hito Python básico.
+510,87,2025-06-24 01:57:07,motivacion,didactico,email,442,2,Se recomendó practicar ejercicios de SQL.
+511,155,2025-05-22 21:35:23,consulta_hito,didactico,email,68,4,Se explicó ruta de aprendizaje inicial.
+512,68,2025-09-03 23:34:04,motivacion,directo,movil,73,3,Se recomendó practicar ejercicios de SQL.
+513,200,2025-07-04 14:16:26,recomendacion,empatico,whatsapp,41,5,Se ajustó orden de hitos por disponibilidad.
+514,198,2025-05-30 10:30:11,seguimiento,directo,email,100,3,Se ajustó orden de hitos por disponibilidad.
+515,116,2025-09-17 20:07:45,recomendacion,empatico,whatsapp,211,3,Se sugirió priorizar Inglés B1 antes de ML.
+516,116,2025-04-26 15:26:37,seguimiento,didactico,email,362,3,Se recomendó practicar ejercicios de SQL.
+517,41,2025-09-20 15:53:22,diagnostico,empatico,movil,554,3,Se revisó avance del hito Python básico.
+518,47,2025-10-06 09:35:18,consulta_hito,didactico,movil,481,2,Se revisó avance del hito Python básico.
+519,16,2025-06-11 13:59:35,consulta_hito,directo,email,120,1,Se explicó ruta de aprendizaje inicial.
+520,119,2025-08-26 06:51:13,seguimiento,didactico,web,518,1,Se sugirió priorizar Inglés B1 antes de ML.
+521,43,2025-04-26 10:09:37,recomendacion,directo,whatsapp,131,3,Se recomendó practicar ejercicios de SQL.
+522,142,2025-09-08 03:53:44,motivacion,directo,web,398,2,Se explicó ruta de aprendizaje inicial.
+523,109,2025-04-07 06:15:16,consulta_hito,directo,movil,45,2,Se sugirió priorizar Inglés B1 antes de ML.
+524,146,2025-04-09 14:38:59,diagnostico,estrategico,movil,422,3,Se sugirió priorizar Inglés B1 antes de ML.
+525,20,2025-04-27 17:19:38,seguimiento,empatico,web,476,4,Se explicó ruta de aprendizaje inicial.
+526,56,2025-05-05 10:12:12,seguimiento,directo,email,55,3,Se explicó ruta de aprendizaje inicial.
+527,9,2025-07-26 07:11:25,motivacion,directo,movil,204,4,Se sugirió priorizar Inglés B1 antes de ML.
+528,47,2025-07-11 18:35:45,recomendacion,didactico,movil,130,4,Se revisó avance del hito Python básico.
+529,145,2025-07-21 10:02:45,seguimiento,didactico,movil,583,1,Se ajustó orden de hitos por disponibilidad.
+530,57,2025-04-16 19:59:15,seguimiento,estrategico,whatsapp,77,2,Se recomendó practicar ejercicios de SQL.
+531,158,2025-08-08 10:38:44,diagnostico,directo,movil,145,4,Se revisó avance del hito Python básico.
+532,195,2025-10-12 18:26:31,consulta_hito,empatico,movil,135,4,Se revisó avance del hito Python básico.
+533,90,2025-04-22 18:05:49,recomendacion,didactico,web,143,4,Se sugirió priorizar Inglés B1 antes de ML.
+534,116,2025-09-04 15:51:55,recomendacion,directo,email,185,5,Se recomendó practicar ejercicios de SQL.
+535,92,2025-06-22 23:30:38,motivacion,didactico,whatsapp,397,1,Se sugirió priorizar Inglés B1 antes de ML.
+536,186,2025-04-04 10:16:41,motivacion,didactico,whatsapp,17,4,Se sugirió priorizar Inglés B1 antes de ML.
+537,94,2025-09-11 12:22:45,diagnostico,directo,web,573,1,Se explicó ruta de aprendizaje inicial.
+538,145,2025-06-09 21:51:17,motivacion,empatico,movil,205,1,Se recomendó practicar ejercicios de SQL.
+539,199,2025-07-29 10:34:26,consulta_hito,empatico,whatsapp,280,5,Se ajustó orden de hitos por disponibilidad.
+540,9,2025-06-30 15:42:07,consulta_hito,directo,whatsapp,212,2,Se revisó avance del hito Python básico.
+541,45,2025-04-06 18:06:32,consulta_hito,directo,whatsapp,83,1,Se revisó avance del hito Python básico.
+542,96,2025-08-10 21:41:24,recomendacion,empatico,web,246,3,Se recomendó practicar ejercicios de SQL.
+543,85,2025-04-17 04:10:47,consulta_hito,didactico,whatsapp,228,5,Se revisó avance del hito Python básico.
+544,194,2025-07-08 14:08:54,consulta_hito,directo,whatsapp,267,4,Se revisó avance del hito Python básico.
+545,152,2025-09-16 22:36:09,consulta_hito,empatico,web,370,5,Se ajustó orden de hitos por disponibilidad.
+546,166,2025-07-02 17:17:46,diagnostico,directo,whatsapp,291,1,Se revisó avance del hito Python básico.
+547,149,2025-04-26 13:11:57,seguimiento,estrategico,email,335,5,Se ajustó orden de hitos por disponibilidad.
+548,158,2025-05-26 04:58:24,diagnostico,empatico,movil,263,4,Se sugirió priorizar Inglés B1 antes de ML.
+549,51,2025-05-03 10:22:40,seguimiento,didactico,whatsapp,395,3,Se revisó avance del hito Python básico.
+550,17,2025-04-09 23:43:17,seguimiento,directo,whatsapp,110,5,Se revisó avance del hito Python básico.
+551,115,2025-08-14 23:40:44,motivacion,empatico,movil,200,4,Se sugirió priorizar Inglés B1 antes de ML.
+552,20,2025-07-02 04:08:26,diagnostico,didactico,whatsapp,252,4,Se revisó avance del hito Python básico.
+553,109,2025-07-19 15:28:22,seguimiento,estrategico,movil,535,4,Se recomendó practicar ejercicios de SQL.
+554,99,2025-05-14 03:55:25,consulta_hito,empatico,email,138,4,Se revisó avance del hito Python básico.
+555,7,2025-04-05 22:59:29,motivacion,directo,whatsapp,337,2,Se recomendó practicar ejercicios de SQL.
+556,16,2025-06-17 09:41:33,consulta_hito,empatico,web,377,2,Se recomendó practicar ejercicios de SQL.
+557,91,2025-04-08 01:32:36,recomendacion,empatico,whatsapp,229,2,Se explicó ruta de aprendizaje inicial.
+558,149,2025-05-15 00:15:36,recomendacion,directo,web,544,4,Se sugirió priorizar Inglés B1 antes de ML.
+559,152,2025-09-30 05:44:58,consulta_hito,estrategico,email,144,3,Se recomendó practicar ejercicios de SQL.
+560,34,2025-06-02 18:03:24,diagnostico,directo,whatsapp,344,5,Se explicó ruta de aprendizaje inicial.
+561,152,2025-06-13 05:46:57,diagnostico,estrategico,email,519,1,Se sugirió priorizar Inglés B1 antes de ML.
+562,127,2025-08-30 15:21:28,motivacion,directo,movil,255,2,Se ajustó orden de hitos por disponibilidad.
+563,151,2025-09-18 04:50:08,recomendacion,empatico,whatsapp,73,2,Se recomendó practicar ejercicios de SQL.
+564,120,2025-07-25 18:25:43,seguimiento,estrategico,web,547,3,Se ajustó orden de hitos por disponibilidad.
+565,92,2025-06-17 19:30:45,motivacion,directo,whatsapp,462,4,Se revisó avance del hito Python básico.
+566,104,2025-06-09 23:11:40,diagnostico,estrategico,email,508,2,Se ajustó orden de hitos por disponibilidad.
+567,200,2025-06-08 13:27:35,recomendacion,estrategico,movil,341,3,Se explicó ruta de aprendizaje inicial.
+568,150,2025-09-03 08:42:31,consulta_hito,directo,movil,202,3,Se explicó ruta de aprendizaje inicial.
+569,194,2025-05-15 11:39:02,motivacion,directo,whatsapp,430,2,Se recomendó practicar ejercicios de SQL.
+570,115,2025-06-10 01:04:46,motivacion,didactico,movil,272,2,Se explicó ruta de aprendizaje inicial.
+571,24,2025-06-09 01:04:01,consulta_hito,directo,whatsapp,104,3,Se ajustó orden de hitos por disponibilidad.
+572,147,2025-06-11 04:06:26,motivacion,empatico,web,442,4,Se revisó avance del hito Python básico.
+573,178,2025-09-23 09:35:56,diagnostico,directo,email,423,1,Se recomendó practicar ejercicios de SQL.
+574,88,2025-04-24 15:22:17,motivacion,estrategico,email,213,2,Se explicó ruta de aprendizaje inicial.
+575,123,2025-07-23 21:43:43,diagnostico,empatico,movil,91,1,Se explicó ruta de aprendizaje inicial.
+576,148,2025-06-28 11:50:12,consulta_hito,estrategico,movil,566,5,Se revisó avance del hito Python básico.
+577,35,2025-06-05 11:16:14,recomendacion,didactico,web,103,5,Se revisó avance del hito Python básico.
+578,98,2025-04-06 10:55:04,diagnostico,didactico,web,556,2,Se sugirió priorizar Inglés B1 antes de ML.
+579,125,2025-04-18 16:21:33,recomendacion,didactico,whatsapp,424,1,Se sugirió priorizar Inglés B1 antes de ML.
+580,15,2025-10-05 06:58:32,seguimiento,directo,email,303,2,Se ajustó orden de hitos por disponibilidad.
+581,183,2025-08-19 16:22:22,diagnostico,empatico,whatsapp,248,4,Se revisó avance del hito Python básico.
+582,52,2025-07-18 14:22:34,seguimiento,empatico,email,450,2,Se revisó avance del hito Python básico.
+583,173,2025-05-17 10:34:35,consulta_hito,directo,email,132,1,Se ajustó orden de hitos por disponibilidad.
+584,67,2025-07-23 03:46:36,diagnostico,didactico,whatsapp,155,2,Se explicó ruta de aprendizaje inicial.
+585,100,2025-08-17 17:33:34,recomendacion,estrategico,web,216,4,Se revisó avance del hito Python básico.
+586,119,2025-10-03 16:27:02,seguimiento,estrategico,email,445,1,Se sugirió priorizar Inglés B1 antes de ML.
+587,178,2025-06-24 03:39:08,recomendacion,estrategico,movil,61,3,Se sugirió priorizar Inglés B1 antes de ML.
+588,18,2025-10-05 01:11:43,recomendacion,estrategico,web,538,5,Se sugirió priorizar Inglés B1 antes de ML.
+589,6,2025-05-07 19:35:46,seguimiento,directo,movil,321,2,Se explicó ruta de aprendizaje inicial.
+590,44,2025-07-24 16:17:03,motivacion,directo,email,330,3,Se recomendó practicar ejercicios de SQL.
+591,20,2025-10-13 21:58:30,consulta_hito,directo,whatsapp,368,4,Se recomendó practicar ejercicios de SQL.
+592,51,2025-10-15 18:27:42,seguimiento,estrategico,email,598,1,Se revisó avance del hito Python básico.
+593,92,2025-07-27 03:51:02,motivacion,estrategico,movil,402,2,Se sugirió priorizar Inglés B1 antes de ML.
+594,144,2025-04-20 07:25:05,recomendacion,didactico,movil,217,5,Se sugirió priorizar Inglés B1 antes de ML.
+595,188,2025-07-16 14:18:51,diagnostico,empatico,web,362,2,Se ajustó orden de hitos por disponibilidad.
+596,87,2025-08-03 17:53:13,seguimiento,estrategico,movil,108,4,Se recomendó practicar ejercicios de SQL.
+597,61,2025-08-06 23:34:22,motivacion,empatico,web,240,4,Se ajustó orden de hitos por disponibilidad.
+598,20,2025-07-14 21:34:53,seguimiento,empatico,whatsapp,515,4,Se explicó ruta de aprendizaje inicial.
+599,76,2025-06-29 11:21:08,seguimiento,estrategico,whatsapp,232,4,Se explicó ruta de aprendizaje inicial.
+600,102,2025-08-27 21:51:30,diagnostico,didactico,whatsapp,440,3,Se sugirió priorizar Inglés B1 antes de ML.

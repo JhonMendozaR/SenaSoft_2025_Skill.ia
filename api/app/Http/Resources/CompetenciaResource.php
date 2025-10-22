@@ -2,18 +2,19 @@
 
 namespace App\Http\Resources;
 
-use App\Models\PerfilObjetivo;
+use App\Models\Competencia;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
-/** @mixin PerfilObjetivo */
-class PerfilObjetivoResource extends JsonResource
+/** @mixin Competencia */
+class CompetenciaResource extends JsonResource
 {
     public function toArray(Request $request)
     {
         return [
-            'id_perfil' => $this->id_perfil,
-            'nombre_perfil' => $this->nombre_perfil,
+            'id_competencia' => $this->id_competencia,
+            'nombre_competencia' => $this->nombre_competencia,
+            'tipo' => $this->tipo,
             'descripcion' => $this->descripcion,
         ];
     }
