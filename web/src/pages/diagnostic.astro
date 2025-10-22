@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import DiagnosticQuiz from '../components/DiagnosticQuiz.vue';
+---
+
+<BaseLayout title="Diagnóstico - Skill.IA">
+  <DiagnosticQuiz client:load />
+</BaseLayout>
+
+<style>
+  /* Override base layout styles for full-screen diagnostic */
+  :global(body) {
+    overflow-x: hidden;
+  }
+</style>

@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+/* Importar fuente Work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+/* Variables de color Skill.IA */
+:root {
+  --color-primary: #8C1AD9;
+  --color-bg-main: #1E1940;
+  --color-bg-secondary: #262473;
+  --color-interaction: #4945BF;
+  --color-complementary: #4B498C;
+  --color-success: #06D6A0;
+}
+
+/* Configuración global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: var(--color-bg-main);
+  color: white;
+}
