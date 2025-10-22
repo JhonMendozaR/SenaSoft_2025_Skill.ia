@@ -66,6 +66,39 @@ export interface AgentContext {
 }
 
 // ============================================
+// INTERFACES DE ROADMAP
+// ============================================
+
+export interface Resource {
+  title: string;
+  url: string;
+  type: 'article' | 'video' | 'course' | 'exercise';
+}
+
+export interface Milestone {
+  id: string;
+  title: string;
+  description: string;
+  status: 'pending' | 'in-progress' | 'completed';
+  progress: number;
+  estimatedTime: string;
+  difficulty: 'Básico' | 'Intermedio' | 'Avanzado';
+  category: 'Technical' | 'Soft Skills' | 'English';
+  objectives: string[];
+  resources: Resource[];
+  completedDate?: Date;
+  aiGenerated?: boolean;
+}
+
+export interface RoadmapData {
+  userId: string;
+  milestones: Milestone[];
+  overallProgress: number;
+  generatedDate: Date;
+  lastUpdated: Date;
+}
+
+// ============================================
 // CONFIGURACIÓN DE AGENTES
 // ============================================
 
@@ -411,3 +444,316 @@ export function useDiagnosticAI(userProfile: UserProfile) {
     updateContext: (updates: Partial<AgentContext>) => service.updateContext(updates),
   };
 }
+
+// ============================================
+// SERVICIO DE ROADMAP CON IA
+// ============================================
+
+export class RoadmapAIService {
+  private config: AgentConfig;
+  private userProfile: UserProfile;
+  private diagnosticResults: DiagnosticResult[];
+
+  constructor(config: AgentConfig, userProfile: UserProfile, diagnosticResults: DiagnosticResult[]) {
+    this.config = config;
+    this.userProfile = userProfile;
+    this.diagnosticResults = diagnosticResults;
+  }
+
+  /**
+   * Genera un roadmap personalizado basado en el diagnóstico
+   */
+  async generateRoadmap(): Promise<RoadmapData> {
+    // TODO: Implementar llamada real al LLM
+    const prompt = this.buildRoadmapPrompt();
+    console.log('Roadmap Generation Prompt:', prompt);
+
+    // Mock generation
+    return this.mockRoadmapGeneration();
+  }
+
+  /**
+   * Actualiza el roadmap basándose en el progreso del usuario
+   */
+  async updateRoadmap(currentRoadmap: RoadmapData, completedMilestones: string[]): Promise<RoadmapData> {
+    // TODO: Implementar actualización con IA
+    const prompt = this.buildUpdatePrompt(currentRoadmap, completedMilestones);
+    console.log('Roadmap Update Prompt:', prompt);
+
+    return this.mockRoadmapUpdate(currentRoadmap, completedMilestones);
+  }
+
+  /**
+   * Genera nuevo milestone adaptativo basado en progreso
+   */
+  async generateAdaptiveMilestone(progress: RoadmapData): Promise<Milestone> {
+    // TODO: Implementar con LLM
+    const prompt = this.buildAdaptiveMilestonePrompt(progress);
+    console.log('Adaptive Milestone Prompt:', prompt);
+
+    return this.mockAdaptiveMilestone();
+  }
+
+  // ============================================
+  // MÉTODOS PRIVADOS - GENERACIÓN DE PROMPTS
+  // ============================================
+
+  private buildRoadmapPrompt(): string {
+    return `
+Generate a personalized professional development roadmap based on:
+
+User Profile:
+- Name: ${this.userProfile.name || 'Unknown'}
+- Sector: ${this.userProfile.sector || 'Not specified'}
+- Experience: ${this.userProfile.experience || 'Not specified'}
+- Aspiration: ${this.userProfile.aspiration || 'Not specified'}
+- English Level: ${this.userProfile.initialEnglishLevel || 'Not specified'}
+
+Diagnostic Results:
+${this.diagnosticResults.map(r => `
+  ${r.category}: ${r.score}/100 - Level: ${r.level}
+  Feedback: ${r.feedback}
+`).join('\n')}
+
+Instructions:
+1. Generate 5-7 milestones that progressively build skills
+2. Start with gaps identified in the diagnostic
+3. Order milestones from foundational to advanced
+4. Include technical, soft skills, and English milestones
+5. Each milestone should have:
+   - Clear title and description
+   - 3-4 learning objectives
+   - 3-5 recommended resources
+   - Estimated time to complete
+   - Difficulty level
+
+Return JSON format with complete roadmap structure.
+    `.trim();
+  }
+
+  private buildUpdatePrompt(roadmap: RoadmapData, completed: string[]): string {
+    return `
+Update this roadmap based on user progress:
+
+Completed Milestones: ${completed.length}
+${completed.map(id => {
+  const milestone = roadmap.milestones.find(m => m.id === id);
+  return milestone ? `- ${milestone.title} (${milestone.category})` : id;
+}).join('\n')}
+
+Current Milestones:
+${roadmap.milestones.map(m => `${m.title}: ${m.status}`).join('\n')}
+
+Instructions:
+1. Analyze what the user has completed
+2. Identify new skill gaps or opportunities
+3. Suggest 1-2 new milestones that build on progress
+4. Adjust difficulty of pending milestones if needed
+5. Ensure logical skill progression
+
+Return updated roadmap in JSON format.
+    `.trim();
+  }
+
+  private buildAdaptiveMilestonePrompt(progress: RoadmapData): string {
+    const completedMilestones = progress.milestones.filter(m => m.status === 'completed');
+    
+    return `
+Generate a new adaptive milestone based on user's progress:
+
+Completed Milestones:
+${completedMilestones.map(m => `- ${m.title} (${m.category}, ${m.difficulty})`).join('\n')}
+
+Overall Progress: ${progress.overallProgress}%
+
+User Profile:
+- Aspiration: ${this.userProfile.aspiration || 'Not specified'}
+- Experience: ${this.userProfile.experience || 'Not specified'}
+
+Instructions:
+1. Analyze the user's learning trajectory
+2. Identify the next logical skill to develop
+3. Consider their professional aspiration
+4. Create a challenging but achievable milestone
+5. Include specific, actionable objectives
+
+Return single milestone in JSON format.
+    `.trim();
+  }
+
+  // ============================================
+  // MÉTODOS MOCK (Temporales)
+  // ============================================
+
+  private mockRoadmapGeneration(): RoadmapData {
+    const baseMilestones: Milestone[] = [
+      {
+        id: 'rm-1',
+        title: 'Fundamentos de SQL',
+        description: 'Aprende consultas básicas y manejo de bases de datos relacionales.',
+        status: 'pending',
+        progress: 0,
+        estimatedTime: '2 semanas',
+        difficulty: 'Básico',
+        category: 'Technical',
+        objectives: [
+          'Dominar SELECT, WHERE, JOIN',
+          'Crear y modificar tablas',
+          'Entender normalización de datos'
+        ],
+        resources: [
+          { title: 'SQL para Principiantes', url: '#', type: 'course' },
+          { title: 'Guía de SQL Básico', url: '#', type: 'article' },
+          { title: 'Práctica con SQLZoo', url: '#', type: 'exercise' }
+        ],
+        aiGenerated: true
+      },
+      {
+        id: 'rm-2',
+        title: 'Comunicación Efectiva en Equipos',
+        description: 'Desarrolla habilidades de comunicación clara y asertiva.',
+        status: 'pending',
+        progress: 0,
+        estimatedTime: '3 semanas',
+        difficulty: 'Intermedio',
+        category: 'Soft Skills',
+        objectives: [
+          'Practicar escucha activa',
+          'Dar y recibir feedback constructivo',
+          'Presentar ideas de forma clara'
+        ],
+        resources: [
+          { title: 'Comunicación Asertiva', url: '#', type: 'video' },
+          { title: 'Curso de Soft Skills', url: '#', type: 'course' }
+        ],
+        aiGenerated: true
+      },
+      {
+        id: 'rm-3',
+        title: 'Inglés Técnico Básico',
+        description: 'Vocabulario y comprensión de documentación técnica en inglés.',
+        status: 'pending',
+        progress: 0,
+        estimatedTime: '4 semanas',
+        difficulty: 'Básico',
+        category: 'English',
+        objectives: [
+          'Leer documentación técnica',
+          'Escribir emails profesionales',
+          'Participar en reuniones básicas'
+        ],
+        resources: [
+          { title: 'Technical English Course', url: '#', type: 'course' },
+          { title: 'IT Vocabulary Guide', url: '#', type: 'article' }
+        ],
+        aiGenerated: true
+      }
+    ];
+
+    return {
+      userId: this.userProfile.userId || 'unknown',
+      milestones: baseMilestones,
+      overallProgress: 0,
+      generatedDate: new Date(),
+      lastUpdated: new Date()
+    };
+  }
+
+  private mockRoadmapUpdate(current: RoadmapData, completed: string[]): RoadmapData {
+    // Simular actualización: agregar un nuevo milestone si se completó uno
+    const newMilestone: Milestone = {
+      id: `rm-new-${Date.now()}`,
+      title: '[IA] Módulo Adaptativo Avanzado',
+      description: 'Nuevo desafío basado en tu progreso reciente.',
+      status: 'pending',
+      progress: 0,
+      estimatedTime: '3 semanas',
+      difficulty: 'Avanzado',
+      category: 'Technical',
+      objectives: [
+        'Objetivo adaptativo 1',
+        'Objetivo adaptativo 2',
+        'Objetivo adaptativo 3'
+      ],
+      resources: [
+        { title: 'Recurso Avanzado', url: '#', type: 'course' }
+      ],
+      aiGenerated: true
+    };
+
+    return {
+      ...current,
+      milestones: [...current.milestones, newMilestone],
+      lastUpdated: new Date(),
+      overallProgress: (completed.length / (current.milestones.length + 1)) * 100
+    };
+  }
+
+  private mockAdaptiveMilestone(): Milestone {
+    return {
+      id: `adaptive-${Date.now()}`,
+      title: '[IA] Proyecto de Integración',
+      description: 'Aplica todos tus conocimientos en un proyecto real.',
+      status: 'pending',
+      progress: 0,
+      estimatedTime: '4 semanas',
+      difficulty: 'Avanzado',
+      category: 'Technical',
+      objectives: [
+        'Integrar múltiples tecnologías',
+        'Demostrar dominio completo',
+        'Crear solución escalable'
+      ],
+      resources: [
+        { title: 'Proyecto Capstone', url: '#', type: 'exercise' },
+        { title: 'Guía de Implementación', url: '#', type: 'article' }
+      ],
+      aiGenerated: true
+    };
+  }
+}
+
+// ============================================
+// UTILIDADES PARA ROADMAP
+// ============================================
+
+/**
+ * Crea una instancia del servicio de roadmap
+ */
+export function createRoadmapService(
+  userProfile: UserProfile,
+  diagnosticResults: DiagnosticResult[]
+): RoadmapAIService {
+  const defaultConfig: AgentConfig = {
+    questionGenerator: {
+      provider: 'openai',
+      model: 'gpt-4',
+    },
+    responseAnalyzer: {
+      provider: 'anthropic',
+      model: 'claude-3-sonnet',
+    },
+    diagnosticGenerator: {
+      provider: 'openai',
+      model: 'gpt-4',
+    },
+  };
+
+  return new RoadmapAIService(defaultConfig, userProfile, diagnosticResults);
+}
+
+/**
+ * Hook composable para usar el servicio de Roadmap
+ */
+export function useRoadmapAI(userProfile: UserProfile, diagnosticResults: DiagnosticResult[]) {
+  const service = createRoadmapService(userProfile, diagnosticResults);
+
+  return {
+    generateRoadmap: () => service.generateRoadmap(),
+    updateRoadmap: (roadmap: RoadmapData, completed: string[]) => 
+      service.updateRoadmap(roadmap, completed),
+    generateAdaptiveMilestone: (progress: RoadmapData) => 
+      service.generateAdaptiveMilestone(progress),
+  };
+}
+
