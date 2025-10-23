@@ -1,7 +1,83 @@
-# Render Blueprint para Skill.IA Frontend
-# Este archivo configura automáticamente el servicio en Render
+# Render Blueprint para Skill.IA
+# Este archivo configura automáticamente los servicios en Render
 
 services:
+  # Backend API - Laravel
+  - type: web
+    name: skillai-api
+    runtime: php
+    plan: free
+    
+    # Root del proyecto Laravel
+    rootDir: api
+    
+    # Comandos de build
+    buildCommand: bash build.sh
+    
+    # Comando de inicio (Apache/Nginx se inicia automáticamente en Render)
+    startCommand: php-fpm
+    
+    # Región
+    region: oregon
+    
+    # Variables de entorno para Laravel
+    envVars:
+      - key: APP_NAME
+        value: SkillIA
+      
+      - key: APP_ENV
+        value: production
+      
+      - key: APP_DEBUG
+        value: false
+      
+      - key: APP_KEY
+        generateValue: true  # Render genera una clave automáticamente
+      
+      - key: APP_URL
+        value: https://skillai-api.onrender.com
+      
+      - key: LOG_CHANNEL
+        value: errorlog
+      
+      - key: LOG_LEVEL
+        value: error
+      
+      # Base de datos (configurar manualmente en Render Dashboard)
+      - key: DB_CONNECTION
+        value: mysql
+      
+      - key: DB_HOST
+        sync: false  # Configurar manualmente
+      
+      - key: DB_PORT
+        value: 3306
+      
+      - key: DB_DATABASE
+        sync: false  # Configurar manualmente
+      
+      - key: DB_USERNAME
+        sync: false  # Configurar manualmente
+      
+      - key: DB_PASSWORD
+        sync: false  # Configurar manualmente
+      
+      # Sesiones y Cache
+      - key: SESSION_DRIVER
+        value: file
+      
+      - key: CACHE_STORE
+        value: file
+      
+      - key: QUEUE_CONNECTION
+        value: sync
+    
+    # Auto deploy desde GitHub
+    autoDeploy: true
+    
+    # Branch
+    branch: main
+
   # Frontend - Sitio Web Estático
   - type: web
     name: skillai-frontend
