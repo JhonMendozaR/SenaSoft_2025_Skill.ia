@@ -145,7 +145,7 @@ const restartDiagnostic = () => {
 const finishDiagnostic = () => {
   // TODO: Guardar resultados en backend y redirigir a dashboard
   console.log('Resultados finales:', results.value);
-  window.location.href = '/';
+  window.location.href = '/roadmap';
 };
 </script>
 

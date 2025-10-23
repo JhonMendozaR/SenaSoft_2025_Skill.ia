@@ -356,10 +356,10 @@ const clearChat = () => {
   }
 };
 
-// Toggle minimize (para implementación futura)
+// Toggle minimize - Regresar al roadmap
 const toggleMinimize = () => {
-  // Implementar lógica de minimizar/maximizar
-  console.log('Toggle minimize');
+  console.log('Regresando al roadmap');
+  window.location.href = '/roadmap';
 };
 
 // Handlers de input

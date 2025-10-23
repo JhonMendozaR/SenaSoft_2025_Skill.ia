@@ -527,9 +527,8 @@ const goToProfile = () => {
 };
 
 const openAIChat = () => {
-  console.log('Abrir chat con asistente IA');
-  // TODO: Abrir interfaz de chat con el agente conversacional
-  alert('💬 Chat con Asistente IA - Próximamente disponible');
+  console.log('Navegando al chat con asistente IA');
+  window.location.href = '/chat';
 };
 </script>
 
