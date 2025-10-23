@@ -528,7 +528,7 @@ const goToProfile = () => {
 
 const openAIChat = () => {
   console.log('Navegando al chat con asistente IA');
-  window.location.href = '/chat';
+  window.location.href = '/chat/';
 };
 </script>
 

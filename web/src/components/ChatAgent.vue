@@ -359,7 +359,7 @@ const clearChat = () => {
 // Toggle minimize - Regresar al roadmap
 const toggleMinimize = () => {
   console.log('Regresando al roadmap');
-  window.location.href = '/roadmap';
+  window.location.href = '/roadmap/';
 };
 
 // Handlers de input
