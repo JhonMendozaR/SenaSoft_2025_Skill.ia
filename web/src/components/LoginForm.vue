@@ -153,7 +153,7 @@ const handleLogin = async () => {
   isLoading.value = true;
 
   try {
-    const response = await fetch('http://10.0.0.45:8000/api/users/login', {
+    const response = await fetch('http://172.20.10.8:8000/api/users/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

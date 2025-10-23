@@ -1,0 +1,59 @@
+# Render Blueprint para Skill.IA Frontend
+# Este archivo configura automáticamente el servicio en Render
+
+services:
+  # Frontend - Sitio Web Estático
+  - type: web
+    name: skillai-frontend
+    runtime: static
+    
+    # IMPORTANTE: Como web/ es un subdirectorio, especificamos el root directory
+    rootDir: web
+    
+    # Comandos de build
+    buildCommand: npm install && npm run build
+    
+    # Directorio donde está el contenido estático generado
+    staticPublishPath: ./dist
+    
+    # Configuración de dominio (opcional, Render asigna uno automáticamente)
+    # customDomains:
+    #   - skillai.com
+    
+    # Variables de entorno (configurar en el dashboard de Render)
+    envVars:
+      - key: PUBLIC_GROQ_API_KEY
+        sync: false  # Se configura manualmente en Render Dashboard
+      
+      - key: NODE_VERSION
+        value: 22.20.0
+    
+    # Headers personalizados para seguridad y cache
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      
+      # Cache para assets estáticos (1 año)
+      - path: /_astro/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      
+      # Cache para imágenes (1 mes)
+      - path: /images/*
+        name: Cache-Control
+        value: public, max-age=2592000
+    
+    # Redireccionamientos (opcional)
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
