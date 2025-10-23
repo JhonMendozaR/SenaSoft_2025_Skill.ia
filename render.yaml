@@ -15,10 +15,14 @@ services:
     # Directorio donde está el contenido estático generado
     staticPublishPath: ./dist
     
-    # Variables de entorno
+    # Configuración de dominio (opcional, Render asigna uno automáticamente)
+    # customDomains:
+    #   - skillai.com
+    
+    # Variables de entorno (configurar en el dashboard de Render)
     envVars:
       - key: PUBLIC_GROQ_API_KEY
-        sync: false
+        sync: false  # Se configura manualmente en Render Dashboard
       
       - key: NODE_VERSION
         value: 22.20.0
@@ -47,8 +51,8 @@ services:
         name: Cache-Control
         value: public, max-age=2592000
     
-    # Redireccionamientos para SPA routing
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
+    # Nota: no se configura rewrite global a /index.html porque
+    # el sitio genera páginas estáticas (por ejemplo /login/index.html).
+    # Tener una regla que reescriba todas las rutas a /index.html
+    # provoca un bucle si `index.html` hace `window.location.href = '/login'`.
+    # Render servirá correctamente los archivos estáticos generados en `dist/`.
