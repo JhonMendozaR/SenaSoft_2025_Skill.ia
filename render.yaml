@@ -3,8 +3,9 @@
 
 services:
   # Frontend - Sitio Web Estático
-  - type: static
+  - type: web
     name: skillai-frontend
+    runtime: static
     
     # IMPORTANTE: Como web/ es un subdirectorio, especificamos el root directory
     rootDir: web
