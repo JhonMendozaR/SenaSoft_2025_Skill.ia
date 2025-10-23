@@ -6,7 +6,8 @@ Este backend Laravel está configurado para desplegarse automáticamente en Rend
 
 ## ✅ Archivos Preparados
 
-- ✅ `api/build.sh` - Script de build para Render
+- ✅ `api/Dockerfile` - Configuración Docker con PHP 8.2 + Apache
+- ✅ `api/.dockerignore` - Archivos ignorados en el build
 - ✅ `api/public/.htaccess` - Configuración Apache (ya existente)
 - ✅ `render.yaml` - Configuración automática con servicio backend
 - ✅ `api/.env.example` - Template de variables de entorno
@@ -58,9 +59,8 @@ Este backend Laravel está configurado para desplegarse automáticamente en Rend
    Name: skillai-api
    Region: Oregon (o la que prefieras)
    Root Directory: api
-   Runtime: PHP
-   Build Command: bash build.sh
-   Start Command: php-fpm
+   Runtime: Docker
+   Dockerfile Path: ./Dockerfile
    Plan: Free
    ```
 
@@ -167,9 +167,10 @@ O puedes ejecutarlas manualmente desde el Shell de Render:
 
 ```yaml
 Framework: Laravel 12
-PHP: 8.2+
+PHP: 8.2 + Apache
+Runtime: Docker
 Root Directory: api/
-Build Script: api/build.sh
+Dockerfile: api/Dockerfile
 Variables Configuradas en render.yaml:
   - APP_NAME, APP_ENV, APP_DEBUG, APP_URL
   - LOG_CHANNEL, LOG_LEVEL

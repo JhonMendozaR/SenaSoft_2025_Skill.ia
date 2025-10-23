@@ -5,17 +5,14 @@ services:
   # Backend API - Laravel
   - type: web
     name: skillai-api
-    runtime: php
+    runtime: docker
     plan: free
     
     # Root del proyecto Laravel
     rootDir: api
     
-    # Comandos de build
-    buildCommand: bash build.sh
-    
-    # Comando de inicio (Apache/Nginx se inicia automáticamente en Render)
-    startCommand: php-fpm
+    # Dockerfile path (relativo a rootDir)
+    dockerfilePath: ./Dockerfile
     
     # Región
     region: oregon
