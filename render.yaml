@@ -3,9 +3,8 @@
 
 services:
   # Frontend - Sitio Web Estático
-  - type: web
+  - type: static
     name: skillai-frontend
-    runtime: static
     
     # IMPORTANTE: Como web/ es un subdirectorio, especificamos el root directory
     rootDir: web
@@ -16,14 +15,10 @@ services:
     # Directorio donde está el contenido estático generado
     staticPublishPath: ./dist
     
-    # Configuración de dominio (opcional, Render asigna uno automáticamente)
-    # customDomains:
-    #   - skillai.com
-    
-    # Variables de entorno (configurar en el dashboard de Render)
+    # Variables de entorno
     envVars:
       - key: PUBLIC_GROQ_API_KEY
-        sync: false  # Se configura manualmente en Render Dashboard
+        sync: false
       
       - key: NODE_VERSION
         value: 22.20.0
@@ -52,7 +47,7 @@ services:
         name: Cache-Control
         value: public, max-age=2592000
     
-    # Redireccionamientos (opcional)
+    # Redireccionamientos para SPA routing
     routes:
       - type: rewrite
         source: /*
